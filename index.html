@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Edward Hugh Rocca - Portfolio</title>    
+    <link rel="icon" href="media/favicon1.png" type="image/x-icon">
+</head>
+<body>
+    <div id="top"></div>
+    <div id="loadingOverlay">
+        <div id="loadingAnimation"></div>
+        <div id="loadingBarWrapper">
+            <div id="loadingBar"></div>
+        </div>
+    </div>
+    <nav>
+        <a href="#top"><img id="EhrLogo" src="media/EhrLogo.svg" alt="Logo"></a>
+        <ul id="navBar">
+            <li><a class="sectionLink" href="#skillsSection">Skills</a></li>
+            <li><a class="sectionLink" href="#projectsSection">Projects</a></li>
+            <li><a class="sectionLink" href="#testimonialsSection">Testimonials</a></li>
+            <li><a class="sectionLink" href="#contactSection">Contact</a></li>
+            <li class="ctalink">
+                <a href="cv/cv.pdf" download="cv.pdf" target="_blank">CV Download</a>
+            </li>
+        </ul>
+        
+        <div id="hamburger" onclick="toggleMenu()"></div>
+        <div id="navOverlay">
+            <ul id="mobileNavBar">
+                <!-- <li><a class="sectionLink" href="#top">Page Top</a></li> -->
+                <li><a class="sectionLink" href="#skillsSection">Skills</a></li>
+                <li><a class="sectionLink" href="#projectsSection">Projects</a></li>
+                <li><a class="sectionLink" href="#testimonialsSection">Testimonials</a></li>
+                <li><a class="sectionLink" href="#contactSection">Contact</a></li>
+                <li class="ctalink">
+                    <a href="cv/cv.pdf" download="cv.pdf" target="_blank">CV Download</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="heroSection">
+        <div class="heroWrapper">
+            <img class="heroDesktop" src="media/BackgroundMeDesktop.png" alt="">
+            <img class="heroDesktop" src="media/HiDesktop.svg" alt="">
+            <img class="heroDesktop" src="media/ForegroundMeDesktop.png" alt="">
+            <img class="heroDesktop" src="media/Hugh Rocca Desktop.svg" alt="">
+
+            <img class="heroMobile" src="media/BackgroundMeMobile.png" alt="">
+            <img class="heroMobile" src="media/Hi, I'm Edward.svg" alt="">
+            <img class="heroMobile" src="media/ForegroundMeMobile.png" alt="">
+            <img class="heroMobile" src="media/Hugh Rocca. A designer.svg" alt="">
+
+            <img src="media/SigniatureBG.svg" alt="Background Signiature" id="sigBG">
+            <img src="media/SigniatureBGBlur.svg" alt="Background Blur" id="sigBGBlur">
+            <img src="media/SigniatureBGHighlight.svg" alt="Background Highlight" id="sigBGHigh">
+        </div>
+        <div class="interactiveCursor">
+            <div class="interactive"></div>
+            <div class="interactive"></div>
+            <div class="interactive"></div>
+        </div>
+    </section>
+
+    <section id="skillsSection">
+        <div class="contentWrapper">
+            <h1 class="sectionHeader">Skills</h1>
+            <div class="divider"></div>
+            
+            <div class="skills">
+                <div class="skillsSection">
+                    <h2 class="subHeader">Design</h2>
+                    <div class="skillGrid designGrid">
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/AiIcon.svg" alt="Adobe Illustrator Icon">
+                            <p class="skillTag">Illustrator</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/PsIcon.svg" alt="Adobe Photoshop Icon">
+                            <p class="skillTag">Photoshop</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/LrIcon.svg" alt="Adobe Lightroom Icon">
+                            <p class="skillTag">Lightroom</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/AeIcon.svg" alt="Adobe After Effects Icon">
+                            <p class="skillTag">After Effects</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="skillsSection">
+                    <h2 class="subHeader">Web</h2>
+                    <div class="skillGrid webGrid">
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/VscodeIcon.svg" alt="VS Code Icon">
+                            <p class="skillTag">VSCode</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/HtmlIcon.svg" alt="HTML Icon">
+                            <p class="skillTag">HTML</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/CssIcon.svg" alt="CSS Icon">
+                            <p class="skillTag">CSS</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/JsIcon.svg" alt="JavaScript Icon">
+                            <p class="skillTag">JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="skillsSection">
+                    <h2 class="subHeader">Other</h2>
+                    <div class="skillGrid otherGrid">
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/Events.svg" alt="Events Icon">
+                            <p class="skillTag">Events</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/Community.svg" alt="Community Icon">
+                            <p class="skillTag">Community</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/Music.svg" alt="Music Icon">
+                            <p class="skillTag">Music</p>
+                        </div>
+                        <div class="skillItem">
+                            <img class="icon" src="media/icons/Photography.svg" alt="Photography Icon">
+                            <p class="skillTag">Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projectsSection">
+        <div class="contentWrapper">
+            <h1 class="sectionHeader">Projects</h1>
+            <div class="divider"></div>
+
+            
+            <div class="skillbox"> <!-- PCC -->
+                <h2 class="subHeader">Prins Claus Conservatoire</h2>
+                <div class="tags">
+                    <span class="projectTag">Design</span>
+                    <span class="projectTag">Programming</span>
+                </div>
+                <img class="projectImage" src="media/Projects/Hanze KluterCollection.png" alt="Screenshots of the Kluter Project on a smartphone.">
+                <div class="hiddenContent">
+                    <h3>Description</h3>
+                    <p class="skillParagraph">
+                        Creating a web platform for the Prins Claus Conservatoire in Groningen to accompany a physical exhibition where students can learn more about, rent out, and tune the displayed instruments.
+                    </p>
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Mobile First Web Design</li>
+                        <li>Web-based Bespoke Tuning Application</li>
+                        <li>Dynamic Request Forms</li>
+                        <li>Converting a Library to Digital</li>
+                        <li>Extensive Target Audience Research & Testing</li>
+                    </ul>
+                    <h3>Project Duration</h3>
+                    <p class="skillParagraph">
+                        8 months
+                    </p>
+                    <h3>Methodology</h3>
+                    <p class="skillParagraph">
+                        This project focused heavily on the design cycle: looping through the various phases of exploring, concepting, prototyping and evaluating. 
+                    </p>
+                    <p class="skillParagraph">
+                        A large focus of this project was researching the target audience extensively, making sure to validate and evaluate each feature as it was conceived and added to the project.
+                    </p>
+                    <h3>Results</h3>
+                    <p class="skillParagraph">
+                        The website is currently <a href="https://therealedd.github.io/KluterCollection/" target="_blank">live on my GitHub</a>. Keep in mind it is designed for a mobile experience.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="skillbox"> <!-- glitch -->
+                <h2 class="subHeader">GLiTCH Study Association</h2>
+                <div class="tags">
+                    <span class="projectTag">Design</span>
+                    <span class="projectTag">Branding</span>
+                    <span class="projectTag">Illustration</span>
+                </div>
+                <img class="projectImage" src="media/Projects/GLiTCH Art.png" alt="Screenshots of the Kluter Project on a smartphone.">
+                <div class="hiddenContent">
+                    <h3>Description</h3>
+                    <p class="skillParagraph">Crafting visuals for event promotion and social media marketing to help maintain and grow the community. In my time with GLiTCH, I worked on various digital designs ranging from social media posts to photography to twitch overlays and animations.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Bespoke illustrations for each event</li>
+                        <li>Designing for a younger target audience</li>
+                        <li>Incorporating brand guidelines</li>
+                        <li>Working in many different formats</li>
+                    </ul>
+                    <h3>Project Duration</h3>
+                    <p class="skillParagraph">
+                        13 months
+                    </p>
+                    <h3>Methodology</h3>
+                    <p class="skillParagraph">
+                        This position granted high levels of creative freedom. The main goal was to draw from popular imagery with the target audience and use bright eye-catching colours to draw attention to the various events. 
+                    </p>
+                    <p class="skillParagraph">
+                        In some cases, more specific requirements were given for designs, where I would work with the client to hone the designs to their own spec and needs. 
+                    </p>
+                    <h3>Results</h3>
+                    <p class="skillParagraph">
+                        My designs for GLiTCH can be found on their <a href="https://discord.gg/6tunb9d" target="_blank">Discord server</a> as well as on their <a href="https://www.instagram.com/sa_glitch/" target="_blank">Instagram account</a> from posts at the time.
+                    </p>
+                </div>
+                
+                <p class="skillParagraph">
+                </p>
+            </div>
+
+
+            <div class="skillbox"> <!-- drawings -->
+                <h2 class="subHeader">A Year of Daily Drawings</h2>
+                <div class="tags">
+                    <span class="projectTag">Design</span>
+                    <span class="projectTag">Illustration</span>
+                </div>
+                <div class="carouselContainer"></div> <!--Carousel for daily drawings-->
+                <div class="hiddenContent">
+                    <h3>Description</h3>
+                    <p class="skillParagraph">Personal challenge encompassing a year of drawing every day to develop stronger illustration skills.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>365 days of drawing</li>
+                        <li>Personal skill development</li>
+                        <li>Creative Consistency</li>
+                        <li>Colour theory, composition, anatomy, shape language and many more topics studied</li>
+                    </ul>
+                    <h3>Project Duration</h3>
+                    <p class="skillParagraph">
+                        365 days
+                    </p>
+                    <h3>Methodology</h3>
+                    <p class="skillParagraph">
+                        One of the biggest challenges here was how to maintain the drive to make something new every day. I kept some rules for myself to help with this. As long as I had created <i>something</i> and posted it on social media to hold myself accountable, I considered it a success.
+                    </p>
+                    <p class="skillParagraph">
+                        The usage of social media as an accountability tool was perfect, as I wouldn't want to post work that I wasn't happy with. On the occasions where that did occur, I would use the next day to create that piece again to a better standard. 
+                    </p>
+                    <h3>Results</h3>
+                    <p class="skillParagraph">
+                        My illustrations can all be found <a href="https://www.instagram.com/edwardrocca/" target="_blank">on my Instagram page</a>, and I hope to create a cool way to showcase them online in a future project.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="skillbox"> <!-- hard carry -->
+                <h2 class="subHeader">Hard Carry Management</h2>
+                <div class="tags">
+                    <span class="projectTag">Design</span>
+                    <span class="projectTag">Branding</span>
+                </div>
+                <img class="projectImage" src="media/Projects/HardCarry1.jpg" alt="Table layout of different mock ups for the hard carry brand design">
+                <div class="hiddenContent">
+                    <h3>Description</h3>
+                    <p class="skillParagraph">Client commission to design a logo and brand guidelines for a legal startup centred around e-sports.</p>
+                    
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Logo design</li>
+                        <li>Showcasing different brands within one design</li>
+                    </ul>
+                    <h3>Project Duration</h3>
+                    <p class="skillParagraph">
+                        1 month
+                    </p>
+                    <h3>Methodology</h3>
+                    <p class="skillParagraph">
+                        I held approx. 3 meetings with the client throughout the project. The first was about their business and identity, the second was to review the first iteration of logos, and the third meeting was to choose final designs. 
+                    </p>
+                    <p class="skillParagraph">
+                        If I had picked up this project today, I would have ensured to also validate the logo designs with their target audience better so the final results aren't only perfect for the business owner, but also for their clientele.
+                    </p>
+                    <h3>Results</h3>
+                    <img src="media/Projects/HardCarry2.jpg" alt="hard carry's business card mockup">
+                    <p class="skillParagraph">
+                        The two brands created - one for legal support, the other for social content and management. Personal details are censored here to protect the privacy of the client.
+                    </p>
+                </div>
+            </div>
+            
+
+
+        </div>
+    </section>
+
+    <section id="testimonialsSection">
+        <div class="contentWrapper">
+            <h1 class="sectionHeader">What Others Say About Me</h1>
+            <div class="divider"></div>
+
+                <div class="testimonialWrapper">
+                    <img class="silhouette" src="media/silhouettes/sil1.svg" alt="A silhouette of the testimonial speaker">
+                    <div class="testimonialCard">
+                        <h3 class="testimonialName">Nayeli de Meza</h3>
+                        <h4 class="testimonialFunction">Narrative Designer, Freelance</h4>
+                        <div class="testimonialTextbox">
+                            <p class="testimonialText">
+                                "Edward's passion is one of his most admirable qualities. He brings a positive perspective to every situation and makes the most of any opportunity. This not only benefits his work but also inspires those around him." 
+                            </p>
+                        </div>
+                    </div>
+                </div>     
+
+                <div class="testimonialWrapper">
+                    <div class="testimonialCard">
+                        <h3 class="testimonialName">Hugo de Bokx</h3>
+                        <h4 class="testimonialFunction">Game Design Student, Hanze UAS</h4>
+                        <div class="testimonialTextbox">
+                            <p class="testimonialText">
+                                “Edward has a broad spectrum of knowledge that continues to surprise me. He is pleasant to be around, good at planning and takes responsibility”                            </p>
+                        </div>
+                    </div>
+                    <img class="silhouette" src="media/silhouettes/sil3.svg" alt="A silhouette of the testimonial speaker">
+                </div>       
+
+                <div class="testimonialWrapper">
+                    <img class="silhouette" src="media/silhouettes/sil2.svg" alt="A silhouette of the testimonial speaker">
+                    <div class="testimonialCard">
+                        <h3 class="testimonialName">Alexandra Yotova</h3>
+                        <h4 class="testimonialFunction">UX/UI Designer, FysioFitApp</h4>
+                        <div class="testimonialTextbox">
+                            <p class="testimonialText">
+                                "Edward is one of the easiest people to talk to and he makes it comfortable for others to share their difficulties with him. He’s approachable, which is a really valuable quality to have."                            </p>
+                        </div>
+                    </div>
+                </div>      
+
+                <div class="testimonialWrapper">
+                    <div class="testimonialCard">
+                        <h3 class="testimonialName">Kjelt Maatje</h3>
+                        <h4 class="testimonialFunction">Animator, TRGR Creative Agency</h4>
+                        <div class="testimonialTextbox">
+                            <p class="testimonialText">
+                                "Edward dares to give his opinion and ask critical questions to make his own and other peoples' work and projects better. He's a great asset to the team, both as a person and as a professional."                            </p>
+                        </div>
+                    </div>
+                    <img class="silhouette" src="media/silhouettes/sil4.svg" alt="A silhouette of the testimonial speaker">
+                </div>           
+        </div>
+    </section>
+
+    <section id="contactSection">
+        <div class="contentWrapper">
+            <h1 class="sectionHeader">Contact</h1>
+            <div class="divider"></div>
+            <div class="centerWrapper">
+                <div class="contactGrid">
+                    <a id="emailButton" class="emailButton coolButton" href="#">
+                        <h3 class="contactH3">Shoot me an email</h3>
+                        <img class="contactIcon" src="media/icons/EmailIcon.svg" alt="email icon">
+                    </a>
+                    <a class="socialButton coolButton" href="https://www.instagram.com/edwardrocca/" target="_blank">
+                        <h3 class="contactH3">Instagram</h3>
+                        <img class="contactIcon" src="media/icons/InstagramIcon.svg" alt="Instagram icon" >
+                    </a>
+                    <a class="socialButton coolButton" href="https://www.linkedin.com/in/edward-rocca/" target="_blank">
+                        <h3 class="contactH3">LinkedIn</h3>
+                        <img class="contactIcon" src="media/icons/LinkedInIcon.svg" alt="LinkedIn icon">
+                    </a>          
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="contentWrapper">
+            <a href="#top" class="sectionHeader">Edward Hugh Rocca</a>
+            <div class="divider"></div>
+            <ul>
+                <li><a href="#skillsSection">Skills</a></li>
+                <li><a href="#projectsSection">Projects</a></li>
+                <li><a href="#testimonialsSection">Testimonials</a></li>
+                <li><a href="#contactSection">Contact</a></li>
+            </ul>
+            <div class="divider"></div>
+            <div class="copyright">Copyright © Edward Hugh Rocca 2024</div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="index.js"></script>
+</html>
