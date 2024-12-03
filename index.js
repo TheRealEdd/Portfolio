@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function toggleMenu() {
     const hamburger = document.getElementById('hamburger');
     const navOverlay = document.getElementById('navOverlay');
+    const ehrLogo = document.getElementById('logoNav'); // Reference the EhrLogo element
     const body = document.body;
 
     // Toggle the 'show' class for the overlay
@@ -51,6 +52,13 @@ function toggleMenu() {
 
     // Toggle the 'no-scroll' class on the body to disable/enable scrolling
     body.classList.toggle('no-scroll');
+
+    // Toggle opacity, pointer-events, and cursor for EhrLogo
+    if (ehrLogo) {
+        const isHidden = ehrLogo.style.opacity === "0";
+        ehrLogo.style.opacity = isHidden ? "1" : "0";
+        ehrLogo.style.pointerEvents = isHidden ? "auto" : "none";
+    }
 }
 
 // Automatically close the menu when a link is clicked
@@ -60,6 +68,7 @@ document.querySelectorAll('#mobileNavBar a').forEach(link => {
         toggleMenu();
     });
 });
+
 
 
 
@@ -101,22 +110,36 @@ document.addEventListener('DOMContentLoaded', () => {
     skillboxes.forEach((box) => {
         box.addEventListener('click', () => {
             const hiddenContent = box.querySelector('.hiddenContent');
+            const expandTag = box.querySelector('.expandTag');
+            const collapseTag = box.querySelector('.collapseTag');
             if (hiddenContent) {
                 if (hiddenContent.style.maxHeight) {
-                    // Collapse
                     hiddenContent.style.maxHeight = null;
 
-                    // Scroll back to the top of the skillbox with an offset
+                    // Scroll back to top of skillbox
                     const offset = parseFloat(getComputedStyle(document.documentElement).fontSize) * 4.5; // 1.5em
                     const boxTop = box.getBoundingClientRect().top + window.scrollY - offset;
+
+                    if (expandTag) {
+                        expandTag.style.opacity = 1;
+                    }
+                    if (collapseTag) {
+                        collapseTag.style.opacity = 0;
+                    }
 
                     window.scrollTo({
                         top: boxTop,
                         behavior: 'smooth'
                     });
                 } else {
-                    // Expand
                     hiddenContent.style.maxHeight = hiddenContent.scrollHeight + "px";
+
+                    if (expandTag) {
+                        expandTag.style.opacity = 0;
+                    }
+                    if (collapseTag) {
+                        collapseTag.style.opacity = 1;
+                    }
                 }
             }
         });
@@ -151,28 +174,28 @@ function initializeScrollGallery(gallery) {
     let index = 0;
 
     function animateGallery() {
-        const galleryWidth = gallery.offsetWidth;
+        const galleryWidth = gallery.offsetWidth;        
         const xOffset = galleryWidth * 0.1;
         const rotationAngle = 6;
-
+    
         wrappers.forEach((wrapper, i) => {
             const nextIndex = (i + index) % wrappers.length;
             const relativePosition = nextIndex - Math.floor(wrappers.length / 2);
-
+    
             wrapper.style.zIndex = nextIndex;
             wrapper.style.opacity = nextIndex === wrappers.length - 1 ? 0 : 1;
             wrapper.style.transform = `
-                translateX(${relativePosition * xOffset}px)
+                translateX(${relativePosition * xOffset + xOffset}px)
                 rotateY(${rotationAngle * relativePosition}deg)
             `;
-
+    
             if (nextIndex === wrappers.length - 1) {
                 setTimeout(() => {
                     wrapper.style.transition = 'none';
-                    wrapper.style.transform = `translateX(${-xOffset * 3}px)`;
+                    wrapper.style.transform = `translateX(${xOffset}px)`;
                     wrapper.style.zIndex = 0;
                     wrapper.style.opacity = 0;
-
+    
                     setTimeout(() => {
                         wrapper.style.transition = 'transform 0.5s ease, opacity 0.5s ease';
                         wrapper.style.opacity = 1;
@@ -180,9 +203,10 @@ function initializeScrollGallery(gallery) {
                 }, 1500);
             }
         });
-
+    
         index = (index + 1) % wrappers.length;
     }
+    
 
     setInterval(animateGallery, 2000);
 }
