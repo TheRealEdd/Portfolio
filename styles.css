@@ -244,7 +244,7 @@ section:nth-child(2n+1) {
             width: 100%;
             height: 100%;
             background-color: var(--colorDarkGray);
-            display: flex;
+            display: none;
             justify-content: center;
             align-items: center;
             flex-direction: column;
@@ -273,6 +273,7 @@ section:nth-child(2n+1) {
 
         #navOverlay.show {
             top: 0; /* Slide into view */
+            display: flex;
         }
 
         #hamburger.close {
@@ -365,9 +366,8 @@ section:nth-child(2n+1) {
     #heroSection {
         position: relative;
         overflow: hidden;
-        height: calc(100vh - 10em);
-        /* padding-top: 2em;
-        padding-bottom: 6em; */
+        height: calc(100vh - 5em);
+        padding: 0%;
     }
 
 
@@ -464,15 +464,16 @@ section:nth-child(2n+1) {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, calc(-50% - 3%));
         width: auto;
         height: 80vh;
         max-width: 90%;
+        max-height: 95%;
         object-fit: contain;
         margin: 1em 0;
     }
     
-    @media (max-width: 1050px) {
+    @media (orientation: portrait) {
         .heroDesktop {
             display: none;
         }
@@ -762,8 +763,9 @@ p a{
 } */
 
 .scrollGallery {
-    width: 100%; /* Relative to screen width */
-    height: clamp(100px, 50vw, 380px); /* Stays consistent in height */
+    width: 100%;
+    /* height: 100px;  */
+    height: clamp(100px, 50vw, 380px);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -773,17 +775,19 @@ p a{
     overflow: hidden;
 }
 
+
+
 .imageWrapper {
     position: absolute;
     width: auto; /* Scale width with viewport */
     height: clamp(50px, 35vw, 300px); /* Maintain aspect ratio */
-    /* transform-style: preserve-3d; */     
     perspective: 332px;
     transition: transform 0.5s ease, z-index ease, opacity 0.5s ease;
 }
 
 .imageWrapper img {
     width: 100%;
+    max-width: 300px; /* Needed this to stop iOS and iPadOS devices stretching images like crazy */
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
