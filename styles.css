@@ -576,6 +576,7 @@ section:nth-child(2n+1) {
     text-align: center;
     color: var(--colorPrimary);
     transition: opacity 0.3s ease;
+    margin-top: 1em;
 }
 
 .collapseTag {
@@ -762,7 +763,7 @@ p a{
 
 .scrollGallery {
     width: 100%; /* Relative to screen width */
-    height: clamp(100px, 50vw, 450px); /* Stays consistent in height */
+    height: clamp(100px, 50vw, 380px); /* Stays consistent in height */
     border-radius: 10px;
     display: flex;
     justify-content: center;
