@@ -11,11 +11,11 @@
     "role": "Designer & Illustrator",
     "methodsUsed": ["Digital Illustration", "Character Design", "Storytelling"],
     "estimatedReadTime": 3,
-    "heroImage": "media/Images/port4Hero.webP",
+    "heroImage": "media/Images/port4Hero.webp",
     "images": [
-      "media/Images/port1.webP",
-      "media/Images/port3.webP",
-      "media/Images/port4.webP"
+      "media/Images/port1.webp",
+      "media/Images/port3.webp",
+      "media/Images/port4.webp"
     ],
     "thumbnailImage": "media/thumbnails/portfolioThumb.webp",
     "showreel": null,
@@ -86,13 +86,13 @@
     "role": "Designer, Developer and Content Manager",
     "methodsUsed": ["HTML", "CSS", "JavaScript", "Illustration", "Photography", "Video Editing", "Website Maintenance"],
     "estimatedReadTime": 2.5,
-    "heroImage": "media/Images/tm3Hero.webP",
+    "heroImage": "media/Images/tm3Hero.webp",
     "images": [
-      "media/Images/tm1.webP",
-      "media/Images/tm5.webP",
-      "media/Images/tm3.webP"
+      "media/Images/tm1.webp",
+      "media/Images/tm5.webp",
+      "media/Images/tm3.webp"
     ],
-    "thumbnailImage": "media/thumbnails/toxicThumb.webP",
+    "thumbnailImage": "media/thumbnails/toxicThumb.webp",
     "showreel": null,
     "shortDescription": "Read how the growing popularity of Toxic Mocktail called for an urgent need of a website to match their visual identity, and how hand-crafted elements helped give it a unique edge over the competition.",
     "longDescription": "<h2>From Brainstorm to Business</h2><br>When Toxic Mocktail realised they needed a website to be taken seriously by bookers and get more gigs, my prototyping skills came to the calling.<br><br>From prototype to live project; the full blog covers the design decisions, challenges, and approaches I used to tackle this project.",
@@ -159,15 +159,15 @@
     "role": "Illustrator & Animator",
     "methodsUsed": ["Digital Illustration", "Digital Painting", "Traditional Illustration", "Frame-by-Frame Animation"],
     "estimatedReadTime": 4,
-    "heroImage": "media/Images/drawing2Hero.webP",
+    "heroImage": "media/Images/drawing2Hero.webp",
     "images": [
-      "media/Images/drawing2.webP",
-      "media/Images/drawing4.webP",
-      "media/Images/drawing1.webP",
-      "media/Images/drawing5.webP",
-      "media/Images/drawing3.webP"
+      "media/Images/drawing2.webp",
+      "media/Images/drawing4.webp",
+      "media/Images/drawing1.webp",
+      "media/Images/drawing5.webp",
+      "media/Images/drawing3.webp"
     ],
-    "thumbnailImage": "media/thumbnails/DailyDrawingsThumb.webP",
+    "thumbnailImage": "media/thumbnails/DailyDrawingsThumb.webp",
     "showreel": null,
     "shortDescription": "Find out about consistancy, discipline and accountability through a year long project aimed to better my illustration skills, in which I created a new piece every day.",
     "longDescription": "<h2>Breaking out the Art Supplies</h2><br>This project aimed to improve my personal skills, become consistent with my work ethic, and explore new areas and techniques in art by creating a new piece every day.<br><br>Read about the challenges of maintaining the drive to create daily, and how I created a set of rules to maintain focus and consistency.",
@@ -270,13 +270,13 @@
     "role": "Designer & Illustrator",
     "methodsUsed": ["Digital Illustration", "Character Design", "Storytelling"],
     "estimatedReadTime": 2,
-    "heroImage": "media/Images/hog3Hero.webP",
+    "heroImage": "media/Images/hog3Hero.webp",
     "images": [
-      "media/Images/hog1.webP",
-      "media/Images/hog2.webP",
-      "media/Images/hog3.webP"
+      "media/Images/hog1.webp",
+      "media/Images/hog2.webp",
+      "media/Images/hog3.webp"
     ],
-    "thumbnailImage": "media/thumbnails/eggThumb.webP",
+    "thumbnailImage": "media/thumbnails/eggThumb.webp",
     "showreel": null,
     "shortDescription": "Follow along with how design challenges and the target audience can inform art decisions in this illustration project where a hedgehog discovers a round object and asks farm animals who's it could be.",
     "longDescription": "<h2>A Whim of Silly Conversation</h2><br>Spawned from a discussion about the extraordinary dietary limits of hedgehogs, this project became a visual exploration of how such a question can be turned into an accessible story for young children to learn about farm animals.<br><br>This project has been a wonderful exploration of these ideas, and the idea of animating this story is something I've considered before.",
@@ -350,15 +350,15 @@
     "role": "Author & Illustrator",
     "methodsUsed": ["Digital Illustration", "Poetry"],
     "estimatedReadTime": 1,
-    "heroImage": "media/Images/poemHero.webP",
+    "heroImage": "media/Images/poemHero.webp",
     "images": [
-      "media/Images/poem1.webP",
-      "media/Images/poem2.webP",
-      "media/Images/poem3.webP",
-      "media/Images/poem4.webP",
-      "media/Images/poem5.webP"
+      "media/Images/poem1.webp",
+      "media/Images/poem2.webp",
+      "media/Images/poem3.webp",
+      "media/Images/poem4.webp",
+      "media/Images/poem5.webp"
     ],
-    "thumbnailImage": "media/thumbnails/poetryThumb.webP",
+    "thumbnailImage": "media/thumbnails/poetryThumb.webp",
     "showreel": null,
     "shortDescription": "See the world from my perspective, through the looking glass of a small collection of poems with illustrations to accompany them.",
     "longDescription": "<h2>What's it about?</h2><br>As precursors to what would inevitably become my 6 months of creating music daily, I spent some of the days of my daily drawings creating poetry for those illustrations to coexist with.<br><br>These poems and drawings have been combined in this bundle where they fit better within their own context.",
@@ -474,12 +474,12 @@
     "role": "Designer",
     "methodsUsed": ["Adobe Suite", "Vector Design", "Designing for Print"],
     "estimatedReadTime": 2,
-    "heroImage": "media/Images/hardcarry8Hero.webP",
+    "heroImage": "media/Images/hardcarry8Hero.webp",
     "images": [
-      "media/Images/hardcarry1.webP",
-      "media/Images/hardcarry2.webP"
+      "media/Images/hardcarry1.webp",
+      "media/Images/hardcarry2.webp"
     ],
-    "thumbnailImage": "media/thumbnails/hardcarryThumb.webP",
+    "thumbnailImage": "media/thumbnails/hardcarryThumb.webp",
     "showreel": null,
     "shortDescription": "Read about the challenges of creating a logo for a new law firm building a brand around e-sports legal advice and management, where the solution unified all sides of the brand.",
     "longDescription": "<h2>From Rough Draft to Refined Design</h2><br>Follow the journey of Hard Carry Agency's logo design; how their key principles shaped the initial sketches, and those ideas were refined through colours, shape theory and mockups.<br><br>Read more to discover how two sides of a company could be united under one logo.",
@@ -504,7 +504,7 @@
       },
       {
         "type": "images",
-        "mediaUrls": ["media/Images/hardcarry5.webP"],
+        "mediaUrls": ["media/Images/hardcarry5.webp"],
         "captions": [
           "Stylescapes E-Sports professionals, 20.10.2021."
         ]
@@ -518,7 +518,7 @@
       },
       {
         "type": "images",
-        "mediaUrls": ["media/Images/hardcarry6.webP"],
+        "mediaUrls": ["media/Images/hardcarry6.webp"],
         "captions": [
           "First revision of logo ideas, 21.10.2021."
         ]
@@ -532,7 +532,7 @@
       },
       {
         "type": "images",
-        "mediaUrls": ["media/Images/hardcarry7.webP"],
+        "mediaUrls": ["media/Images/hardcarry7.webp"],
         "captions": [
           "Logo variations in shape and colour (for revision #2), 28.10.2021."
         ]
@@ -547,7 +547,7 @@
       
       {
         "type": "images",
-        "mediaUrls": ["media/Images/hardcarry3.webP"],
+        "mediaUrls": ["media/Images/hardcarry3.webp"],
         "captions": [
           "Left: Social brand management logo, 31.10.2021."
         ]
@@ -574,14 +574,14 @@
     "role": "Designer & Illustrator for Digital and Print",
     "methodsUsed": ["Adobe Suite", "Graphic Design", "Illustration"],
     "estimatedReadTime": 2,
-    "heroImage": "media/Images/glitch1Hero.webP",
+    "heroImage": "media/Images/glitch1Hero.webp",
     "images": [
-      "media/Images/glitch1.webP",
-      "media/Images/glitch2.webP",
-      "media/Images/glitch3.webP",
-      "media/Images/glitch4.webP"
+      "media/Images/glitch1.webp",
+      "media/Images/glitch2.webp",
+      "media/Images/glitch3.webp",
+      "media/Images/glitch4.webp"
     ],
-    "thumbnailImage": "media/thumbnails/glitchThumb.webP",
+    "thumbnailImage": "media/thumbnails/glitchThumb.webp",
     "showreel": null,
     "shortDescription": "Learn about the high-pressure environment and challenges involved with developing a diverse variety of content for an organisation, ranging from event announcements to merchandise.",
     "longDescription": "<h2>Rapid Production Cycles and Iterations</h2><br>Read the blog to discover how quick turnarounds and short-noticed deadlines shaped how I learned to be efficient in my work and put rapid prototyping and iteration to use in designs that united a community during the trying times of the Covid-19 pandemic.",
@@ -668,15 +668,15 @@
     "role": "Photographer & Editor",
     "methodsUsed": ["Photography", "Raw Photo Editing"],
     "estimatedReadTime": 5,
-    "heroImage": "media/Images/snow5hero.webP",
+    "heroImage": "media/Images/snow5hero.webp",
     "images": [
-      "media/Images/snow1.webP",
-      "media/Images/snow2.webP",
-      "media/Images/snow3.webP",
-      "media/Images/snow4.webP",
-      "media/Images/snow5.webP"
+      "media/Images/snow1.webp",
+      "media/Images/snow2.webp",
+      "media/Images/snow3.webp",
+      "media/Images/snow4.webp",
+      "media/Images/snow5.webp"
     ],
-    "thumbnailImage": "media/thumbnails/snowThumb.webP",
+    "thumbnailImage": "media/thumbnails/snowThumb.webp",
     "showreel": null,
     "shortDescription": "A photographic exploration of equestrian lifestyle in the first snow of the season. Read more to find out about the challenges of shooting in subzero weather and working with animals in a photography setting.",
     "longDescription": "<h2>Breaking the Ice</h2><br>Learn more about my experiences with helping horses become more comfortable around the camera, and working with the right equipment to match the type of shoot you're going for.<br><br>I'll be going into more detail about lenses and settings, but also how to plan out the shots and my positioning ahead of time to work quickly when the animals are involved.",
@@ -767,15 +767,15 @@
     "role": "Photographer & Editor",
     "methodsUsed": ["Photography", "Raw Photo Editing"],
     "estimatedReadTime": 3.5,
-    "heroImage": "media/Images/studio2hero.webP",
+    "heroImage": "media/Images/studio2hero.webp",
     "images": [
-      "media/Images/studio4.webP",
-      "media/Images/studio1.webP",
-      "media/Images/studio6.webP",
-      "media/Images/studio3.webP",
-      "media/Images/studio2.webP"
+      "media/Images/studio4.webp",
+      "media/Images/studio1.webp",
+      "media/Images/studio6.webp",
+      "media/Images/studio3.webp",
+      "media/Images/studio2.webp"
     ],
-    "thumbnailImage": "media/thumbnails/studioThumb.webP",
+    "thumbnailImage": "media/thumbnails/studioThumb.webp",
     "showreel": null,
     "shortDescription": "Follow along with a private session where the client wanted a unique twist on studio portraits. Learn how I flipped the studio around to create creative portraits for professional use.",
     "longDescription": "<h2>Modelling without Experience</h2><br>Learning to work with your subjects is one of the core necessities of portrait photography. Even a subject with no experience in front of a camera can be helped to portray themselves naturally and aesthetically if that's the goal of the shoot.<br><br>Follow along as I share my techniques to make the subject feel at ease and go into detail about how to use lighting to your advantage.",
@@ -862,17 +862,17 @@
     "role": "Editor & Photography Coach",
     "methodsUsed": ["Coaching", "Raw Photo Editing"],
     "estimatedReadTime": 4,
-    "heroImage": "media/Images/lmn7Hero.webP",
+    "heroImage": "media/Images/lmn7Hero.webp",
     "images": [
-      "media/Images/lmn1.webP",
-      "media/Images/lmn2.webP",
-      "media/Images/lmn3.webP",
-      "media/Images/lmn4.webP",
-      "media/Images/lmn5.webP",
-      "media/Images/lmn6.webP",
-      "media/Images/lmn7.webP"
+      "media/Images/lmn1.webp",
+      "media/Images/lmn2.webp",
+      "media/Images/lmn3.webp",
+      "media/Images/lmn4.webp",
+      "media/Images/lmn5.webp",
+      "media/Images/lmn6.webp",
+      "media/Images/lmn7.webp"
     ],
-    "thumbnailImage": "media/thumbnails/lmnThumb.webP",
+    "thumbnailImage": "media/thumbnails/lmnThumb.webp",
     "showreel": null,
     "shortDescription": "A photographer experiences every event twice: once through the camera, and a second time editing the photos afterwards. Read more about how Ray and I divided these roles efficiently to shoot and edit ESN's Live Music Night event.",
     "longDescription": "<h2>Coaching and Collaborating</h2><br>A team project involving photography coaching and collaboration with co-photographer Ray. Read more about working together with other photographers, and bringing out a creative vision with extreme lighting conditions through the power of RAW photo editing.",
@@ -951,15 +951,15 @@
     "role": "Photographer & Editor",
     "methodsUsed": ["Event Photography", "Raw Photo Editing"],
     "estimatedReadTime": 2,
-    "heroImage": "media/Images/sg4Hero.webP",
+    "heroImage": "media/Images/sg4Hero.webp",
     "images": [
-      "media/Images/sg3.webP",
-      "media/Images/sg1.webP",
-      "media/Images/sg6.webP",
-      "media/Images/sg2.webP",
-      "media/Images/sg4.webP"
+      "media/Images/sg3.webp",
+      "media/Images/sg1.webp",
+      "media/Images/sg6.webp",
+      "media/Images/sg2.webp",
+      "media/Images/sg4.webp"
     ],
-    "thumbnailImage": "media/thumbnails/sgThumb.webP",
+    "thumbnailImage": "media/thumbnails/sgThumb.webp",
     "showreel": null,
     "shortDescription": "Event photography is all about fading into the audience and capturing real, organic moments. Read more to discover how I approach capturing people naturally, and how to keep your subjects comfortable around the camera.",
     "longDescription": "<h2>Serious Games Awards</h2><br>Being nominated for an award is a big thing for new designers, so this was an important moment for my client. Capturing events like these is important not only for the participants, but also for the event organisers. Getting quality pictures of such events can elevate the experience from a fun day out to a core stepping stone in someone's career if done right.<br><br>Read more to learn about how event photography can make that difference, no matter what kind of event.",
@@ -1041,17 +1041,17 @@
     "role": "Photographer & Editor",
     "methodsUsed": ["Event Photography", "Raw Photo Editing"],
     "estimatedReadTime": 3,
-    "heroImage": "media/Images/grad6Hero.webP",
+    "heroImage": "media/Images/grad6Hero.webp",
     "images": [
-      "media/Images/grad2.webP",
-      "media/Images/grad3.webP",
-      "media/Images/grad4.webP",
-      "media/Images/grad1.webP",
-      "media/Images/grad5.webP",
-      "media/Images/grad6.webP",
-      "media/Images/grad7.webP"
+      "media/Images/grad2.webp",
+      "media/Images/grad3.webp",
+      "media/Images/grad4.webp",
+      "media/Images/grad1.webp",
+      "media/Images/grad5.webp",
+      "media/Images/grad6.webp",
+      "media/Images/grad7.webp"
     ],
-    "thumbnailImage": "media/thumbnails/gradThumb.webP",
+    "thumbnailImage": "media/thumbnails/gradThumb.webp",
     "showreel": null,
     "shortDescription": "The pen hits the dotted line for a signature, and hands are reached out to congratulate. Read more to find out how I prepare for timely moments during shoots so I'm ready when they matter most.",
     "longDescription": "<h2>Shooting for the Moment</h2><br>A graduation ceremony is a special moment. There's a lot of tradition involved, and the graduates have a special occasion to bring oftentimes years of dedication and efforts to a close. Just like with weddings or award ceremonies, there's only one time you can capture the pristine moment of graduating, so read more to discover how I prepare both myself and my equipment for that key moment.",
@@ -1140,14 +1140,14 @@
     "role": "Community Founder, Event Planner, Photographer, Marketing, External Communications, Finance Manager",
     "methodsUsed": ["Event Planning", "Graphic Design", "Community Management", "Photography", "Illustration", "Team Collaboration"],
     "estimatedReadTime": 6,
-    "heroImage": "media/Images/rag4Hero.webP",
+    "heroImage": "media/Images/rag4Hero.webp",
     "images": [
-      "media/Images/rag1.webP",
-      "media/Images/rag2.webP",
-      "media/Images/rag3.webP",
-      "media/Images/rag4.webP"
+      "media/Images/rag1.webp",
+      "media/Images/rag2.webp",
+      "media/Images/rag3.webp",
+      "media/Images/rag4.webp"
     ],
-    "thumbnailImage": "media/thumbnails/ragThumb.webP",
+    "thumbnailImage": "media/thumbnails/ragThumb.webp",
     "showreel": null,
     "shortDescription": "It starts with an idea, a few passionate people, and an urge to create something that was missing before. Read more to learn how we launched the biggest art community on campus, and the challenges and pitfalls along the way.",
     "longDescription": "<h2>A Rag-Tag bunch of ideas</h2><br>Read about how myself and 3 other students went from casual spinoff idea to fully fledged community. We built it from the ground up without funding or support, finding our audience on the way. <br><br>This article covers how RAG·TAG was formed, what methods we used for growth, and how we were able to be <i>the</i> art community for students in our course.",
