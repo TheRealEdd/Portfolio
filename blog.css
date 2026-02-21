@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('media/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype'),
+         url('/path/to/fonts/Inter-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('media/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Inter, sans-serif;
+    background-color: rgb(22, 22, 22);
+    scroll-behavior: smooth;
+    /* color: #f7ba5e; */
+    color: white;
+}
+
+
+
+.body-scroll-lock { /* Used to remove scrolling of main page when info card is open */
+    overflow: hidden;
+    margin-right: 15px; /* Adjust this value based on your scrollbar width */
+}
+
+
+p {
+    font-size: 1.2em;
+    color: rgb(243, 243, 243);
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* === Navbar ============================================== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 40px; 
+    background: linear-gradient(#141414ea, transparent); 
+    position: sticky; /* Change position to sticky */
+    top: 0; /* Stick to the top */
+    z-index: 99; 
+    transition: background-color 0.3s ease; /* Smooth transition for background */
+}
+
+header.sticky {
+    background-color: #141414; /* Solid background color when sticky */
+}
+
+.navBar>li>a, .navBar>li>a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navBar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin-right: 30px; 
+    color: rgb(206, 206, 206); 
+    font-size: 12px; 
+    transition: color 0.2s ease-in-out;
+}
+
+.logo>a {
+    display: inline-block;
+    width: 40px;
+}
+
+.logo>a>img {
+    margin-right: 40px;
+    height: 40px;
+    width: auto;
+}
+
+.navItem.active {
+    color: white; 
+}
+
+.socials {
+    display: flex;
+}
+
+.social-icon {
+    width: auto; 
+    height: 18px; 
+    filter: brightness(0) invert(1); 
+    margin-left: 20px; 
+    align-items: center;
+    transition: filter 0.3s ease;
+}
+
+.social-icon:hover {
+    filter: brightness(0) invert(0.8); 
+}
+
+.navItem:hover, .socials a:hover {
+    color: lightgrey; 
+}
+
+/* === Blog ================================================ */
+
+
+
+.heroBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    max-height: 800px;
+    display: flex;
+    justify-content: center;
+    overflow: clip;
+    z-index: 1;
+}
+
+.heroBackground::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(rgba(22, 22, 22, 0.2) , rgba(22, 22, 22, 0.6) 40%, rgba(22, 22, 22, 1) 95%);
+    z-index: 2;
+}
+
+.heroBackground img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the entire area */
+}
+
+.blogHead {
+    width: 100%;
+    min-height: 50vh;
+    /* align-items: center; */
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Prevent overflow */
+}
+
+/* background managed by heroBackground */
+
+
+.blogHeadContents {
+    width: 60vw;
+    max-width: 900px;
+    margin: auto auto 25px;
+    position: relative;
+    z-index: 3;
+    text-align: left;
+}
+
+.blogTitle {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.blogSubTitle {
+    font-style: italic;
+}
+
+.blogDetails {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 30px;
+}
+
+
+.dateUpdated {
+    color: #dadada;
+}
+
+.blogContainer {
+    display: flex;            /* Use flexbox for horizontal layout */
+    align-items: flex-start;  /* Align items to start at the top */
+    z-index: 2;
+    position: relative;
+}
+
+.divider {
+    height: 1px;
+    background-color: white;
+    width: 60vw;
+    max-width: 900px;
+    margin: 40px auto 20px;
+}
+
+/* Blog Sticky */
+.stickyContainer {
+    position: sticky;
+    top: 25%;
+    left: 20px;
+}
+
+.blogSticky {
+    position: sticky;
+    height: min-content;
+    top: 25%; /* Adjust as needed for spacing */
+    z-index: 3;
+    padding: 20px;
+    /* background: rgba(255, 255, 255, 0.8); Optional: Background to distinguish it */
+    border: white 2px solid;
+    border-radius: 5px; /* Optional: Rounded corners */
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Blog Main */
+.blogMain {
+    width: 60vw;
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+.blogHeadings {
+    font-size: 1.4em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.blogParagraph {
+    margin-bottom: 20px;
+    /* text-align: justify; */
+}
+
+.blogParagraph>a, .blogParagraph>a:visited {
+    text-decoration: underline;
+    color: inherit;
+}
+
+ol, ul {
+    list-style-position: outside;
+    padding: 1em 0 0 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.blogImageBlock {
+    margin-bottom: 20px;
+    width: 100%;
+    /* overflow: hidden; */
+} 
+
+.blogImageCaption {
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+}
+.blogImageDuet {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.dualImages {
+    display: flex;
+    gap: 5px;
+}
+
+.dualImages > img {
+    display: block;
+    flex-basis: 0px;
+    width: 0px;
+    height: auto;
+}
+
+.blogImage {
+    width: 100%;
+    height: auto;
+}
+
+.blogImageDouble {
+    width: 50%;
+    height: auto; 
+}
+
+
+
+
+/* CTA Section */
+.blogCTA {
+    background-color: green;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 60px auto;
+    padding: 100px 20px 60px;
+    position: relative;
+    overflow: hidden;
+    /* justify-content: center; */
+}
+/* .ctaBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: clip;
+    z-index: 1;
+} */
+
+.ctaBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('media/Images/rag3.webp'); /* Add your image URL here */
+    background-size: cover; /* Cover the entire area */
+    background-position: 0 87%; /* Center the background image */
+    width: 100%;
+    height: 100%;
+}
+
+.ctaBackground::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(rgba(22, 22, 22, 1) 10%, rgba(0, 0, 0, 0.452) 60%);;
+    z-index: 3;
+}
+
+.ctaBackground img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the entire area */
+}
+
+.ctaDetails {
+    position: relative;
+    z-index: 3;
+}
+
+.ctaTitle {
+    margin-bottom: 5px;
+}
+
+.ctaSocials{
+    justify-content: center;
+    margin: auto;
+    .social-icon{
+        height: 30px;
+        margin: 20px 20px 0 20px;
+    }
+}
+
+
+/* ===============moreitems */
+.readMoreTitle {
+    width: 60vw;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}
+
+
+.readMoreGallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.moreItem {
+    height: 150px;
+    width: calc(150px/9*16);
+    background-color: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.moreThumb {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ===============footer */
+.footer {
+    height: 300px;
+}

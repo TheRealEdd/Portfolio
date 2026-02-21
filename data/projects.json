@@ -1,0 +1,1252 @@
+[
+  {
+    "title": "Developing my Portfolio",
+    "titleLogo": "media/titles/portfolioTitle.png",
+    "id": "Portfolio",
+    "tagLine": "🔍 Behind the Scenes",
+    "startDate": "26-12-2025",
+    "endDate": null,
+    "fieldOfWork": ["Web Development", "Graphic Design"],
+    "client": "Personal",
+    "role": "Designer & Illustrator",
+    "methodsUsed": ["Digital Illustration", "Character Design", "Storytelling"],
+    "estimatedReadTime": 3,
+    "heroImage": "media/Images/port4Hero.webP",
+    "images": [
+      "media/Images/port1.webP",
+      "media/Images/port3.webP",
+      "media/Images/port4.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/portfolioThumb.webP",
+    "showreel": null,
+    "shortDescription": "Follow my journey towards a fitting design for my diverse works, and how my love for movies helped me find the solution.",
+    "longDescription": "<h2>A Theatrical Approach</h2><br>How can I show so many different fields of work without sacrificing the quality of the showcase? This was the question that bugged me for years; the dread of needing to choose one skill to showcase in a portfolio, at the cost of my other skills.<br><br>Read more to find out how approaching the portfolio as a platform helped solve this issue, while bringing a familiar user interface to most visitors.",
+    "blogWritingDate": "09-01-2026",
+    "blogUpdateDate": null,
+    "subtitle": "From brainwave to reality, a process long due.",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "Starting with a problem",
+        "paragraphs": [
+            "Being the type of creative I am, my work varies wildly across many different areas and creative fields. This yeilds a problem for anyone like me seeking to create an exhaustive portfolio of their works: how do I choose what to show? How will it not feel sporadic, chaotic, and scatterbrained? And worst of all; who on earth would want to hire someone to solve their design problems, when they can't even solve their own?",
+            "These questions bugged me for a long time, even keeping me from sleep at moments when I couldn't stand it any longer. I've designed at least 3 different portfolios over the years, each less suiting than the last. Every time it was the same issue: I can make a wonderful web page, but for what - I can't decide what to show! I was so frustrated about this that I went over to Netflix one day to watch something relaxing and take my mind off of things when it hit me. If Netflix has every genre imagineable on their platform, how on earth does it not feel overwhelming? What were they doing that I was missing?",
+            "That's when it hit me. I can treat my projects like movies and sort each of them into it's own \"genres\", allowing a visitor to browse at ease! I was so excited by this idea that I got to work immediately!"
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/port4.webp"],
+        "captions": [
+          "Me working on the portfolio, Photo by Natalie van Wingerden, 05.01.2026."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "An hommage to the familiar",
+        "paragraphs": [
+            "Over my Christmas holidays I established the first prototype of this idea, seeing if I could figure out how to dynamically load my projects into a homepage. Using JSON and Javascript, I was able to create a template for a project with all of it's details. As the project expanded, so did the template for the projects. I added fields for images, for what image to display if it was showcased as a hero project, and now while writing this article, a structure for generating entire blog webpages from each project. As a reference to the platform that inspired me, I built the homepage to resemble the Netflix homepage. A decision I made not only as a nod to the inspiration, but also a strategic decision in creating something the viewers would likely also be familiar with already.",
+            "This decision wasn't an instant success. My girlfriend was the first to be critical of the idea that I was creating something inspired by such a corporate company (and I'm ever grateful for how she doesn't take my ideas as naively as I do sometimes), however the vision in my mind was solid and I knew that persisting through the process would lead to something truly personal and unique. The user interface being so ubiquitously common may have powered her dislike for it, but it is exactly what fueled my excitement for it. The idea that someone would know exactly how to navigate my portfolio from the moment they opened it."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/port1.webp", "media/Images/port2.webp"],
+        "captions": [
+          "Left: A test project in the JSON file, 05.01.2026.",
+          "Right: Seeing the test adapt to the layout, 05.01.2026"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "The real work: tracking down the projects",
+        "paragraphs": [
+            "For the first time yet, I finally felt confident in the space I had created to showcase my work, which gave me the motivation and drive to really do my best populating the website with all the projects I've done. This brought an incredible level of satisfaction with it; not only the enjoyment of reliving each project again, but also the need to create thumbnails and typography fitting for each project was a super fun creative endeavor in itself!",
+            "Having now gotten a long way with creating each project outline with the right images and graphics, my eyes were now set on getting to the real grit of this project: Finally diving into the writing side of my work. I spent a day researching blog designs, looking for what features I wanted to include in my own and how to make it feel customisable for me to address the layout, but also very accessible to make writing the posts easier."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "At last, the end is in sight",
+        "paragraphs": [
+            "I can't wait to write up all my thoughts and processes from these projects, and I'm hoping that an interested soul will enjoy reading at least one of them. If you got this far already that means I'm doing something right haha. Thank you for joining me through this first blog post, and I can't wait to see what new projects hit this website in the near future! Keep your eyes peeled!"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "A Website for the Band",
+    "titleLogo": "media/titles/toxicTitle.png",
+    "id": "Toxic",
+    "tagLine": "🎸 Branding & Web Development",
+    "startDate": "28-10-2025",
+    "endDate": "11-11-2025",
+    "fieldOfWork": ["Web Development", "Graphic Design"],
+    "client": "Toxic Mocktail Band",
+    "role": "Designer, Developer and Content Manager",
+    "methodsUsed": ["HTML", "CSS", "JavaScript", "Illustration", "Photography", "Video Editing", "Website Maintenance"],
+    "estimatedReadTime": 2.5,
+    "heroImage": "media/Images/tm3Hero.webP",
+    "images": [
+      "media/Images/tm1.webP",
+      "media/Images/tm5.webP",
+      "media/Images/tm3.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/toxicThumb.webP",
+    "showreel": null,
+    "shortDescription": "Read how the growing popularity of Toxic Mocktail called for an urgent need of a website to match their visual identity, and how hand-crafted elements helped give it a unique edge over the competition.",
+    "longDescription": "<h2>From Brainstorm to Business</h2><br>When Toxic Mocktail realised they needed a website to be taken seriously by bookers and get more gigs, my prototyping skills came to the calling.<br><br>From prototype to live project; the full blog covers the design decisions, challenges, and approaches I used to tackle this project.",
+    "blogWritingDate": "10.01.2026",
+    "blogUpdateDate": null,
+    "subtitle": "Showing the world that Toxic Mocktail meant business",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "A rising movement",
+        "paragraphs": [
+            "When I joined Toxic Mocktail in July of 2025, none of us had envisioned quite how fast the band would progress. Within 2 months, we had written 8 songs and were packing up equipment for a first gig already. We kicked off our local debut with 4 band performances, each one bigger and more charged with energy than the last. By the end of these shows, we realised that we had momentum and wanted to keep it up.",
+            "\"We need to get recordings!\", \"We need to get merch!\", and \"We need a website!\" were some of the first things that were called for within the band, and although all of them were equally important, the situation was that we wouldn't be getting any new gigs without seeming serious enough for bookers. With that in mind, I had a week of time spare and found the perfect opportunity to get started on the website!"
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/tm6.webp", "media/Images/tm7.webp"],
+        "captions": [
+          "Left: Toxic Mocktail debut poster, Edward Rocca, 08.08.2025.",
+          "Right: Pim the drummer in front of banner with band logo, Photo by Natalie van Wingerden, 19.09.2025"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Grunge aesthetic as an identity",
+        "paragraphs": [
+            "The visual identity of Toxic Mocktail had already been loosely established by the time I started work on the website. As The posters contained hand-made typography, and the band had taken on this grungy aesthetic, my design challenge to kick things off was seeing how to incorporate this grungy underground feeling to the website, while still keeping it simple. I decided to directly incorporate the hand-made grunge as the logo and headings. Illustrating them in ProCreate and bringing them together in the webpage, using the colours in other UI elements too. Also the Social Icons got this treatment."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/tm1.webp"],
+        "captions": [
+          "Toxic Mocktail website as accessed from mobile, 05.01.2026"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Designing for an audience",
+        "paragraphs": [
+            "The functionality of the band website boiled down to two target audience segments: the fans - who would be trying to find out more about the band (gigs, photography), and bookers - venue and event managers who are looking for the next performance to host. For the bookers we wanted to give a clear identity and showcase our performing history, while giving more insight into what our performances look like. These two target audiences led us to 3 very simple sections: the gigs, the photography, and the socials.",
+            "Designing for this target audience included the consideration that the website should be accessible to people everywhere, so I also made sure to make the website mobile friendly for both Android and iOS users. Alongside some minor layout shifts addressed through media queries, it also brought a creative challenge with the hero background video. The initial video for desktop used the wide aspect ratio to display a mirrored performance of the band, balancing the site nicely. However on mobile this wasn't feasible to use as the portrait layout didn't give enough space to showcase the video properly. For this reason, I went with two separate videos that switch places when the viewport gets small enough. The mobile version has a background that equates to a montage of various performance recordings in the different venues."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Futureproofing and Results",
+        "paragraphs": [
+            "With future additions of things like Spotify links, Music videos, etc. in mind, the website is designed to be minimalistic and clear, while allowing space for expansion in the areas the band decides to grow. To accomodate for this, we decided to host it through GitHub pages with a custom domain. This allows for website adjustments to be pushed by band members with web development knowledge (of which there are 2), and upkeep to stay in control of the band. The final result can be found at <a href='https://toxicmocktail.band/' target='_blank'>ToxicMocktail.band</a> or <a href='https://toxicmocktail.com/' target='_blank'>ToxicMocktail.com</a>."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Daily Drawings Project",
+    "titleLogo": "media/titles/drawingTitleLong.png",
+    "id": "DailyDrawings",
+    "tagLine": "🚀 Milestone Project",
+    "startDate": "02-09-2022",
+    "endDate": "01-09-2023",
+    "fieldOfWork": ["Illustration", "Animation"],
+    "client": "Personal",
+    "role": "Illustrator & Animator",
+    "methodsUsed": ["Digital Illustration", "Digital Painting", "Traditional Illustration", "Frame-by-Frame Animation"],
+    "estimatedReadTime": 4,
+    "heroImage": "media/Images/drawing2Hero.webP",
+    "images": [
+      "media/Images/drawing2.webP",
+      "media/Images/drawing4.webP",
+      "media/Images/drawing1.webP",
+      "media/Images/drawing5.webP",
+      "media/Images/drawing3.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/DailyDrawingsThumb.webP",
+    "showreel": null,
+    "shortDescription": "Find out about consistancy, discipline and accountability through a year long project aimed to better my illustration skills, in which I created a new piece every day.",
+    "longDescription": "<h2>Breaking out the Art Supplies</h2><br>This project aimed to improve my personal skills, become consistent with my work ethic, and explore new areas and techniques in art by creating a new piece every day.<br><br>Read about the challenges of maintaining the drive to create daily, and how I created a set of rules to maintain focus and consistency.",
+    "blogWritingDate": "11.01.2026",
+    "blogUpdateDate": null,
+    "subtitle": "A creative challenge for the artistically driven",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "How can creatives improve their drive?",
+        "paragraphs": [
+            "In september of 2022, coming off of a long summer of creative downtime, I found myself itching for something new. I had done plenty of drawing before, but I realised that my art projects were few, far inbetween, and usually the result of a shortlived whim. I wanted to discover whether I was capable of keeping a creative drive for longer than a few days or weeks with small projects, and to find out whether the world of a professional artist was feasible for me. Could I push myself to create a new piece of art every day, even when I felt uninspired, and further my skills while doing so?"
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/drawing12.webp"],
+        "captions": [
+          "Crocadile in Crocs, digital painting, 29.08.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "The trick to consistency",
+        "paragraphs": [
+            "I set some rules for myself, and I strongly believe that the project would not have worked for me if I hadn't. The first rule was that I didn't want it to be too difficult to complete a day. As long as I had grabbed a drawing tool and made marks on a canvas of sorts, that was sufficient. A 3 minute sketch or 4 hour study, both were fine. This helped me from feeling lost on the days that were the most difficult, and also gave me the freedom to experiment and stretch the time as long as I wanted to.",
+            "Alongside this, I was also keeping myself accountable to what I made. Every piece I made - and I say piece because sometimes it was drawings, sometimes it was frame-by-frame animation and sometimes it was digital paintings - was exported and posted to <a href='https://www.instagram.com/edwardrocca/' target='_blank'>my Instagram</a>. This helped me to feel responsible for completing my work, and it also allowed me to fully benefit from the community I was building around my daily art."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/drawing4.webp", "media/Images/drawing1.webp"],
+        "captions": [
+          "Left: First time rendering shadows, photograph study, 29.09.2022.",
+          "Right: Full body simplification with background, photograph study, 02.01.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Finding community",
+        "paragraphs": [
+            "I mention community in the previous paragraph, and there were certainly some fantastic moments of community to be found in this project. One of the most memorable was when I had drawn the dress you see below. It's the dress that musician Young Thug wore for the cover art of his album \"No, My Name is Jeffery\", and was designed by fashion designer Alessandro Trincone. I was very interested in the story behind the clothing and after drawing it and reading a gripping article about it, it only felt right to tag the creator and model of the dress in <a href='https://www.instagram.com/p/Cm9HK2pI7XY/?igsh=MW9kMGFqazZ5ZjkyMQ==' target='_blank'>the Instagram post</a>. Within hours I was surprised to find the post liked and commented upon by the designer himself, and shared in his story too. I later on also had contact with one of the models who wore the dress to New York Fashion Week."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/drawing3.webp", "media/Images/drawing8.webp"],
+        "captions": [
+          "Left: Young Thug's \"Jeffry\" dress, photograph study, 03.01.2023.",
+          "Right: Response to the piece, Instagram direct messages, 03.01.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": null,
+        "paragraphs": [
+          "There were a few moments similar to this with other public images ranging from dancers I had studied to YouTube art channels I have learned from throughout the years responding to my work. At the time I was also very active in the local art community I had created, and shared much of my work on our Discord server. This led other artists to follow in my footsteps and join me in my daily work as well. Finding a sense of community in your work is a wonderful advantage to have, especially as it makes your work bigger than just a sketch on a page, but it allows it to become a conversation piece, spark new ideas and make new connections."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Taking my work with me",
+        "paragraphs": [
+          "Throughout the project, I found many moments of inspiration when travelling or resting. Some of these moments inspired some of my most memorable work, such as the time I drew a girl feeding ducks and she later got the artwork printed and hung up in her room at home. Or the time I drew some musicians making music in a park in Lisbon, and later on got hired by them to create a poster design for them. The organic nature of finding clients to create work for was wonderful, and on a few occasions it created a financial incentive to make the work even more enjoyable."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/drawing10.webp", "media/Images/drawing11.webp"],
+        "captions": [
+          "Left: Girl feeding ducks in the park, life drawing, 14.04.2023.",
+          "Right: Musicians in Lisbon, life drawing, 11.04.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Rounding off a project of dedication",
+        "paragraphs": [
+          "This project was a beautiful experience, from the skills I picked up, to the people I met and connected with, and the sense of pride I feel even today writing about it 2 years later. It was a wonderful experience that has inspired all of my work since, and drawing has become a part of my most favourite activities, whether for a project or for myself. If you're reading this and considering doing a project like this yourself just remember this: don't make it too hard for yourself, and allow yourself to have fun with it! Thank you for reading and I hope this has granted some insight into one of my favourite projects ever!"
+        ]
+      },      
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/drawing7.gif"],
+        "captions": [
+          "Girl on Swing, frame-by-frame animation, 02.10.2022"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Who's Egg is This?",
+    "titleLogo": "media/titles/eggTitle.png",
+    "id": "WhosEggIsThis",
+    "tagLine": "🖌️ Childrens Book Illustrations",
+    "startDate": "28-06-2023",
+    "endDate": "02-07-2023",
+    "fieldOfWork": ["Illustration"],
+    "client": "Personal",
+    "role": "Designer & Illustrator",
+    "methodsUsed": ["Digital Illustration", "Character Design", "Storytelling"],
+    "estimatedReadTime": 2,
+    "heroImage": "media/Images/hog3Hero.webP",
+    "images": [
+      "media/Images/hog1.webP",
+      "media/Images/hog2.webP",
+      "media/Images/hog3.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/eggThumb.webP",
+    "showreel": null,
+    "shortDescription": "Follow along with how design challenges and the target audience can inform art decisions in this illustration project where a hedgehog discovers a round object and asks farm animals who's it could be.",
+    "longDescription": "<h2>A Whim of Silly Conversation</h2><br>Spawned from a discussion about the extraordinary dietary limits of hedgehogs, this project became a visual exploration of how such a question can be turned into an accessible story for young children to learn about farm animals.<br><br>This project has been a wonderful exploration of these ideas, and the idea of animating this story is something I've considered before.",
+    "blogWritingDate": "13.01.2026",
+    "blogUpdateDate": null,
+    "subtitle": "A small experiment in illustrating for a target audience",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "The aim of the project",
+        "paragraphs": [
+            "As a small project only lasting a few days, the fun of working concept illustrations for a children's book was shortlived but satisfying. The goal I had set for myself was to put myself in the shoes of an illustrator of kids books and develop the visual side of a story about a hedgehog discovering a round object of sorts.",
+            "As the design challenge was to create an educational piece of content, I needed to formulate what lessons to teach, and I decided this story would grant children the opportunity to learn to think critically about recognising objects. This would involve thinking about how they look, smell, taste, feel, sound, etc. All of the senses would be explored, and a lesson would also be found in learning more about how differing animal offspring is born."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/hog1.webp"],
+        "captions": [
+          "The hedgehog wondering what kind of creature could lay an egg like this, digital illustration, 02.07.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "The animals involved would be ones that lived on farms, as these are creatures the reader might already have some familiarity with which would allow the child to connect better with the story. The goal for the illustrations here was to create a sense of scale of the creatures, while also establishing their relationship with the hedgehog. Are they shy, curious, or territorial? These are elements I wanted to incorporate in the illustration side of the story to elaborate on what knowledge the young readers might already have."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/hog2.webp", "media/Images/hog3.webp"],
+        "captions": [
+          "Hedgehog with 2 mice, digital illustration, 01.07.2023.",
+          "A horse encounter, digital illustration, 30.06.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "The story would lead the hedgehog eventually to find out this wasn't an egg at all, showing that it's okay to be wrong about presumtions, and it would turn out to be a grapefruit. The smell being sweet, the taste of the outside being bitter, the feeling a bit oily and the colour of course being very different from your average egg too. While the hedgehog is putting together all the clues thanks to his conversations with the farm animals, the reader would also be invited to wonder what it could be.",
+            "For the end of the story, the hedgehog would be able to have a small taste of the fruit, and discover that he doesn't like it's sweet taste at all. This is so as to not portray grapefruits as hedgehog food, as they can be upsetting for real hedgehogs to eat and I wouldn't want the readers to start feeding hedgehogs grapefruits (a lesson learned from Minecraft who <a href='https://www.vice.com/en/article/minecraft-community-rocked-by-parrot-poisoning-controversy/' target='_blank'>originally introduced taming parrots with cookies</a>, which in reality would be toxic to the birds. They later on changed it to taming with seeds instead.)."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/hog4.webp"],
+        "captions": [
+          "Hedgehog tasting the \"egg\" for himself, digital illustration, 28.06.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "What's next?",
+        "paragraphs": [
+            "As I still very much enjoy the story I crafted and believe it could be a wonderful experience to write a small book or create an animation to portray it, this project remains on a backlog of potential future projects to expand on with more detail once time permits. In the meantime, you'll have to fill in the gaps yourself. Thank you for reading and following along with my train of thoughts regarding the project!"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Poetry Illustration Bundle",
+    "titleLogo": "media/titles/poetryTitle.png",
+    "id": "Poetry",
+    "tagLine": "🖌️ Artistic Expression",
+    "endDate": "13-06-2023",
+    "startDate": "19-05-2023",
+    "fieldOfWork": ["Illustration"],
+    "client": "Personal",
+    "role": "Author & Illustrator",
+    "methodsUsed": ["Digital Illustration", "Poetry"],
+    "estimatedReadTime": 1,
+    "heroImage": "media/Images/poemHero.webP",
+    "images": [
+      "media/Images/poem1.webP",
+      "media/Images/poem2.webP",
+      "media/Images/poem3.webP",
+      "media/Images/poem4.webP",
+      "media/Images/poem5.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/poetryThumb.webP",
+    "showreel": null,
+    "shortDescription": "See the world from my perspective, through the looking glass of a small collection of poems with illustrations to accompany them.",
+    "longDescription": "<h2>What's it about?</h2><br>As precursors to what would inevitably become my 6 months of creating music daily, I spent some of the days of my daily drawings creating poetry for those illustrations to coexist with.<br><br>These poems and drawings have been combined in this bundle where they fit better within their own context.",
+    "blogWritingDate": "14.01.2026",
+    "blogUpdateDate": null,
+    "subtitle": "A loose collection featuring moments of inspiration",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": null,
+        "paragraphs": [
+            "As a short foreword, the following poems were each from days of the 365 Days of Daily Drawing challenge. On these days I decided to combine my regular illustration art with written works inspired by what I had drawn that day. Some days it was the reverse and the poem inspired the drawing, either way I hope you enjoy the following pieces."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "1. \"The Quiet Frog\"",
+        "paragraphs": [
+            ""
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/poem1.webp"],
+        "captions": [
+          "\"The Quiet Frog\", 13.06.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "This poem was an experimental view on the idea of a shy frog who feels uncomfortable to sing around others. In part I presume this to be unintentionally inspired by my own experiences in my youth when singing was something I was afraid to do around others. I have since found the right people to sing around, and now feel confident and comfortable singing in front of anyone.",
+            "The imagery in this piece was envisioned to create a feeling of comfort for the frog and reader alike. A message saying that it's okay to feel the discomfort of being shy, but that it's also okay to take your time and find a moment to discover your own voice."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "2. \"Springtime Lover\"",
+        "paragraphs": [
+            ""
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/poem2.webp"],
+        "captions": [
+          "\"Springtime Lover\", 24.05.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "Illustrating from within a train, I noticed this man walking across the platform with his plants, and I felt wonderfully inspired to create a piece with him and his plants. Not much further meaning-wise, sometimes my writing can feel like that. I'm not sure if it comes accross as uninspired, but I think I sometimes write for more aesthetic reason than for the deeper emotional value it could otherwise carry.",
+            "This is also how I approach lyric writing in certain cases for my band Toxic Mocktail; When the instrumental carries enough personality already, I write to translate that feeling or sound into words rather than trying to craft a new narrative. In other songs, the lyrics carry more weight and I help shape the instrumental with the other band members to serve that meaning coherently accross the music."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "3. \"Between Order and Chaos\"",
+        "paragraphs": [
+            ""
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/poem3.webp"],
+        "captions": [
+          "\"Between Order and Chaos\", 24.05.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "A slight bit more mystical-sounding, and a little more riddly than the other poems, \"Between Order and Chaos\" was created following exercises to generate visual ideas. Shapes and movement are recognised in aimless strokes, not unlike cloudgazing where the gazer imagines recognisable shapes in the sky. The piece is minimalist and abstract, where minute elements allude to the subject. The poem written is a commentry on the method used to create the piece."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "4. \"Float\"",
+        "paragraphs": [
+            ""
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/poem4.webp"],
+        "captions": [
+          "\"Float\", 19.05.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "This piece is a metaphorical piece of advice about the benefits of optimism. As a usually optimistic person myself, I feel dragged down at times by overpowering moments of let-down or disappointment. In these moments it's good to give myself a moment of patience and reflection. As my late grandfather once said: \"There's no point in being negative, it just costs you more energy.\" I stand by this thought, and this poem is also an attribution to his mentality.",
+            "I hope you enjoyed these pieces and reading more about my thoughts behind them. These artworks were all a part of a larger project to practise new skills, dedication, and discipline in my art. They helped shape the project and my view on it too. Thank you for your attention reading this article."
+        ]
+      }
+    ]
+  }, 
+  {
+    "title": "E-Sports Legal Firm Logo Design",
+    "titleLogo": "media/titles/hardcarryTitle.png",
+    "id": "hardcarry",
+    "tagLine": "🚀 Launching a Brand",
+    "startDate": "14-10-2021",
+    "endDate": "31-10-2021",
+    "fieldOfWork": ["Graphic Design", "Logo Design", "Branding"],
+    "client": "Hard Carry Agency",
+    "role": "Designer",
+    "methodsUsed": ["Adobe Suite", "Vector Design", "Designing for Print"],
+    "estimatedReadTime": 2,
+    "heroImage": "media/Images/hardcarry8Hero.webP",
+    "images": [
+      "media/Images/hardcarry1.webP",
+      "media/Images/hardcarry2.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/hardcarryThumb.webP",
+    "showreel": null,
+    "shortDescription": "Read about the challenges of creating a logo for a new law firm building a brand around e-sports legal advice and management, where the solution unified all sides of the brand.",
+    "longDescription": "<h2>From Rough Draft to Refined Design</h2><br>Follow the journey of Hard Carry Agency's logo design; how their key principles shaped the initial sketches, and those ideas were refined through colours, shape theory and mockups.<br><br>Read more to discover how two sides of a company could be united under one logo.",
+    "blogWritingDate": "15.01.2026",
+    "blogUpdateDate": null,
+    "subtitle": "Bringing together two sides of a business under one brand",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "Hard Carry is a startup firm by three locals experienced with esports culture and an educational background in law. The aims for Hard Carry were to represent esports professionals in a legal capacity, while helping them grow their audience through marketing campaigns; the umbrella term they described themselves as was management agency, but with the benefit of in-house legal expertise."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Getting familiar with the target audience",
+        "paragraphs": [
+            "With the esports environment being one of high octane energy, the startup was looking to position themselves as a pillar of trust and reliability in an ever-changing landscape. Their target audience consisted of esports professionals who played in tournaments and usually had their own personal brands through platforms such as YouTube and Twitch, so it was important to my clients that their brand would fit in this environment of play while also feeling serious and professional.",
+            "To help bring the brand environment into more clarity, I created stylescapes for the client to help envision what other brands, colours, shapes and graphics they would be surrounded by. These stylescapes can be a useful tool to provide context to concepts and designs throughout a project like this, and also help to get a clear view of the target audience."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/hardcarry5.webP"],
+        "captions": [
+          "Stylescapes E-Sports professionals, 20.10.2021."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Making clear decisions",
+        "paragraphs": [
+            "While the first load of sketches for any project rarely contains any final work, it's an important step in identifying key factors that are important to the target audience. I provided three very differing logo designs for our first meeting, making sure to focus on elements of play, professionality, and positioning as a high-end firm. The following logos show this variety, and served as a great starting point for the client to provide opinions and feedback on."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/hardcarry6.webP"],
+        "captions": [
+          "First revision of logo ideas, 21.10.2021."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Feedback and Iteration",
+        "paragraphs": [
+            "Amongst these logos, the feedback boiled down to this: the controller and curvy lettering felt too playful, the H surrounded by the C felt too fashion oriented, and the crown felt the most fitting, though lacked in depth. What they especially liked about the crown logo was the idea that I had presented the logo to represent the three of them as founders of the company, while also portraying a sense of high-end to match their brand positioning. Based off of this feedback, I then worked on incorporating detailing elements to the logo, while also providing some options for colour usage."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/hardcarry7.webP"],
+        "captions": [
+          "Logo variations in shape and colour (for revision #2), 28.10.2021."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Wrapping up Design Choices",
+        "paragraphs": [
+            "Out of the detail elements that were presented at the second revision, the clients selected a combination of various elements that they liked more, and we got to talking about colour options. Something they felt very passionate about was having two clear sides to the brand, splitting the legal representation from the brand management of it. This led to the decision to be recognisable to both target audience segments (those excited for marketing assistance, and those seeking legal representation), while splitting the visual identity through colour. The eventual logo would keep with the crown element, while using two different colour gradients to distinguish their more playful side or their more professional side."
+        ]
+      },
+      
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/hardcarry3.webP"],
+        "captions": [
+          "Left: Social brand management logo, 31.10.2021."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "While the final presentation of guidelines above has certainly aged in the 5 years between working on this project and writing this blog, the project was rounded off on a positive note with the client at the time, who continued their startup with a strong sense of identity, ownership and pride in their brand identity and visuals.",
+            "Thank you for reading along with the project!"
+        ]
+      }      
+    ]
+  },
+  {
+    "title": "Glitch Design Committee",
+    "titleLogo": "media/titles/glitchTitle.png",
+    "id": "glitch",
+    "tagLine": "⚡ Boosting Connection",
+    "startDate": "23-08-2020",
+    "endDate": "23-06-2021",
+    "fieldOfWork": ["Illustration", "Community", "Graphic Design"],
+    "client": "GLiTCH Study Association",
+    "role": "Designer & Illustrator for Digital and Print",
+    "methodsUsed": ["Adobe Suite", "Graphic Design", "Illustration"],
+    "estimatedReadTime": 2,
+    "heroImage": "media/Images/glitch1Hero.webP",
+    "images": [
+      "media/Images/glitch1.webP",
+      "media/Images/glitch2.webP",
+      "media/Images/glitch3.webP",
+      "media/Images/glitch4.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/glitchThumb.webP",
+    "showreel": null,
+    "shortDescription": "Learn about the high-pressure environment and challenges involved with developing a diverse variety of content for an organisation, ranging from event announcements to merchandise.",
+    "longDescription": "<h2>Rapid Production Cycles and Iterations</h2><br>Read the blog to discover how quick turnarounds and short-noticed deadlines shaped how I learned to be efficient in my work and put rapid prototyping and iteration to use in designs that united a community during the trying times of the Covid-19 pandemic.",
+    "blogWritingDate": "19-01-2026",
+    "blogUpdateDate": null,
+    "subtitle": "Connecting the disconnected",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "Who is GLiTCH?",
+        "paragraphs": [
+            "The study association \"GLiTCH\" is a student-run organisation within the CMGT bachelors degree aimed at connecting students, creating a sense of belonging, and representing the degree from a social community point of view. As an association representing hundreds of students there are many different committees within the organisation, each with their own responsibilities and tasks to uphold. The Design Committee is one such committee; in charge of the visual output of the association, both digital and in print. Our job was to take the events, announcements, etc. and create visuals while adhering to the branding guidelines. Keeping those guidelines up to date also fell within our responsibilities."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "The period in which I was part of the Design Committee was during the Covid-19 Pandemic, and connecting students was never more crucial. There was a new wave of students, but no campus activities, no in-person open day to meet people, and no after-school events to attend. This adjustment meant more online events and social activities, which still needed communicating to the members of the association."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/glitch2.webp", "media/Images/glitch5.webp"],
+        "captions": [
+          "Left: Indonesian Cooking Show, Instagram Post, 04.01.2021.",
+          "Right: Indonesian Cooking Show, Discord Banner, 04.01.2021."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "Posts like the ones above were our main output, where each design also needed adjusting to the various platforms where GLiTCH communicated with it's members. The main platform was Discord, for which we had banners in a landscape orientation. Instagram and Facebook at the time were more square-oriented. The designs were always accompanied with details for how the viewers could participate and attend, which meant they didn't always need to be included in the visuals."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Deadline Fever",
+        "paragraphs": [
+            "One of the bigger challenges working in a larger organisation with different committees and a hierarchial structure was communication between those committees. Beaurocracy more often than not led to inefficient planning of events, which in some cases meant that the Design Committee would be the last party involved more moments before the event. Because of this, there was often much rush to get something creative and eye-catching out there as soon as possible. This recurring position really taught me to brainstorm ideas quickly and iterate in very quick cycles with my clients (the event organisers and board running GLiTCH) to get something fitting out on time."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/glitch3.webp", "media/Images/glitch4.webp"],
+        "captions": [
+          "Left: Code-Em Workshop, Instagram Post, 17.03.2021.",
+          "Right: Talent Show, Instagram Post, 30.06.2021."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Finding Inspiration",
+        "paragraphs": [
+            "Each post needed to be eye-catching, as well as suitable for the context in which it was used. Oftentimes this could be achieved by finding references to the topic or event like in the Indonesian Cooking Show shown above, which references the <a href='https://asiasociety.org/new-york/wayang-kulit-indonesias-extraordinary-shadow-puppetry-tradition' target='_blank'>Wayang shaddow puppetry</a> of Indonesia in a subtle and playful way. Other designs seek to be creative in more artistic means, like with the GLiTCH Talent Show shown above. This piece combines many different elements in a composition aiming to draw the eye along and explore, just like how the participants would be seeking to set themselves apart from the rest with their talents."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/glitch7.webp"],
+        "captions": [
+          "Sonic Movie Night, Discord Banner, 23.02.2021."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Final Thoughts",
+        "paragraphs": [
+            "Overall, much of the design work for GLiTCH was similar in process, but every design sought to be its own stand-out piece with its own story. Creating such visual narratives was a challenging and fun task, and it's something I still enjoy encorporating in my work today. Thank you for reading this article and I hope it gave some insight into what I got out of this project, and where that fits into my greater works as a whole."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Racing Through The Snow",
+    "titleLogo": "media/titles/snowTitle.png",
+    "id": "snow",
+    "tagLine": "🐎 Framing the Gallop",
+    "startDate": "01-01-2026",
+    "endDate": "02-01-2026",
+    "fieldOfWork": ["Photography"],
+    "client": "Personal",
+    "role": "Photographer & Editor",
+    "methodsUsed": ["Photography", "Raw Photo Editing"],
+    "estimatedReadTime": 5,
+    "heroImage": "media/Images/snow5hero.webP",
+    "images": [
+      "media/Images/snow1.webP",
+      "media/Images/snow2.webP",
+      "media/Images/snow3.webP",
+      "media/Images/snow4.webP",
+      "media/Images/snow5.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/snowThumb.webP",
+    "showreel": null,
+    "shortDescription": "A photographic exploration of equestrian lifestyle in the first snow of the season. Read more to find out about the challenges of shooting in subzero weather and working with animals in a photography setting.",
+    "longDescription": "<h2>Breaking the Ice</h2><br>Learn more about my experiences with helping horses become more comfortable around the camera, and working with the right equipment to match the type of shoot you're going for.<br><br>I'll be going into more detail about lenses and settings, but also how to plan out the shots and my positioning ahead of time to work quickly when the animals are involved.",
+    "blogWritingDate": "24.01.2026",
+    "blogUpdateDate": null,
+    "subtitle": "Working with the unfamiliar, and adapting to the circumstances",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "Firstly...",
+        "paragraphs": [
+            "To preface this article, I think it's good to set the tone for my own experience with horses. As someone quite new to the horseriding scene, I've been on horseback around 15 times by the time of writing this. I've helped feed these horses a few more times than that, but that's about where my experience ends. Working with animals is always a challenging but rewarding endeavour, and I would attribute it mostly to the communication skills it takes.",
+            "A key factor in working with horses is learning to recognise their tells. This can be for when they are calm, or curious, or frightened; there are plenty of different behaviours to recognise. I find it very important to try to find a basic sense of understanding about how the horses you're working with respond and react to different situations. Every horse is different, and this means that shooting pictures with a horse you're unfamiliar with can take a moment to get comfortable first - from both sides. Princessa from Ranč Colombia is a wonderful horse, and Natalie is a very familiar rider and carer at this ranch, giving us a sense of calm and safety."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/snow1.webp", "media/Images/snow2.webp"],
+        "captions": [
+          "Left: Rearing in action, 01.01.2026.",
+          "Right: Walking towards the shoot location, 01.01.2026."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Don't reinvent the wheel",
+        "paragraphs": [
+            "If you're shooting with someone who is very familiar with the horses things can be a lot easier. They can help you understand what kind of behaviour the horse might exhibit, what reactions are easy to read (stomping a foot, ears lying flat, shaking their head, kicking legs - which isn't always a negative btw!, whinnying, etc.). As a photographer, it's good to give the horse and the rider space to be in touch with each other without your presence bothering the horse (or the rider for that matter!).",
+            "Horses also have incredibly good senses of hearing and smell, and they can jump quite easily from unexpected sounds and behaviours. Keep this in mind during a shoot, as you're likely the most out-of-place thing it has recently experienced. Letting the horse sniff the camera, or hear the sound of the shutter going off is important so you can also know how the horse will react to the shooting. If there is extra equipment involved like a flash or reflector, then make sure to test these in a calm environment for the horse. Overall, it is always better to avoid flashing and other surprising elements, especially if they are not familiar with cameras and shooting environments."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/snow3.webp"],
+        "captions": [
+          "Galloping across a field, 01.01.2026."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "The right gear for the gig",
+        "paragraphs": [
+            "For this shoot, I went with two lenses, my trusted 50mm f/1.8, and a longer 75-300mm f4-5.6. I chose two lenses that would cover a lot of distance, as the 50mm would still do great for close-ups, while the zoom lens would allow for capturing the field-wide galloping. To keep things lightweight while staying warm enough, I had only a shoulder strapped camera bag for the spare lens, along with many layers of winter clothing. As the shoot involved a lot of running to get ahead of the horse or catch up to it, being dressed in layers was very important to stay warm or cool down as neccessary.",
+            "Settings-wise, there were a few options for this shoot. As the horse can close distance quite rapidly, I decided to use the zoom lens at its widest aperture. It could have made a lot of sense to shoot in aperture priority mode, letting the exposure automatically adjust as the zoom affected the aperture, but as I am very familiar with my camera settings and editing process while shooting RAW however, I decided to shoot in manual mode with the exposure a little on the darker side at full zoom to not blow out when I would open up the lens when zoomed out as the horse passed me."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/snow4.webp"],
+        "captions": [
+          "Surveying the land, 01.01.2026."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Different every time",
+        "paragraphs": [
+            "I would end this post on these notes, but with the success of the photos you've seen so far we planned a second shoot a few days later with a different subject and horse. This time however the rider was a lot less experienced with riding and this horse, and Natalie who was accompanying the shoot was also less familiar with the horse. Although this shoot went well, there were some unexpected moments and difficulties that caused it to be a lot harder than the first to make work.",
+            "The first of these challenges was contextual; the horse was a male horse named Monty and not long before we got him out of his paddock there had been female horses saddled which he could still sense, and this excited him a little. This led us to taking longer to saddle him which made him a little uneasy as well. On top of that, he was behaving irritated, likely due to three of us helping with the saddling. As I and the rider took distance and let Natalie care for him, he calmed down and we were able to get moving.",
+            "During the shoot itself, things were a lot better, though due to the excitement at the ranch while saddling there was a slight tension between the rider and the horse. The subject felt some discomfort around him and this made the start of the shoot focus more on building their bond together. We had the rider feed the horse and pet him until they felt more comfortable together, at which point we continued the shoot as planned."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/snow5.webp"],
+        "captions": [
+          "Natalie riding in the Trenčín Region, 01.01.2026."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Closing notes",
+        "paragraphs": [
+            "An important closing note here is that each animal is different, and no day is the same as another. Be careful at all times to be observant and respectful to the creatures you work with and those caring for them, and take the time needed to understand them. Try to be predictable and not make sudden movements or flashes, and don't try to direct them too much if that's not something they're used to. My photography focuses a lot on capturing people when they are at their most natural and forget about the camera, so this approach works well for me, but your own results may vary."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Studio Portraiture Session",
+    "titleLogo": "media/titles/studioTitle.png",
+    "id": "studio",
+    "tagLine": "📸 Picture-Perfect Profiles",
+    "startDate": "16-04-2024",
+    "endDate": "17-04-2024",
+    "fieldOfWork": ["Photography"],
+    "client": "Private Client",
+    "role": "Photographer & Editor",
+    "methodsUsed": ["Photography", "Raw Photo Editing"],
+    "estimatedReadTime": 3.5,
+    "heroImage": "media/Images/studio2hero.webP",
+    "images": [
+      "media/Images/studio4.webP",
+      "media/Images/studio1.webP",
+      "media/Images/studio6.webP",
+      "media/Images/studio3.webP",
+      "media/Images/studio2.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/studioThumb.webP",
+    "showreel": null,
+    "shortDescription": "Follow along with a private session where the client wanted a unique twist on studio portraits. Learn how I flipped the studio around to create creative portraits for professional use.",
+    "longDescription": "<h2>Modelling without Experience</h2><br>Learning to work with your subjects is one of the core necessities of portrait photography. Even a subject with no experience in front of a camera can be helped to portray themselves naturally and aesthetically if that's the goal of the shoot.<br><br>Follow along as I share my techniques to make the subject feel at ease and go into detail about how to use lighting to your advantage.",
+    "blogWritingDate": "28-01-2026",
+    "blogUpdateDate": "29-01-2026",
+    "subtitle": "Thinking outside the (light) box",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "Stepping into the unfamiliar",
+        "paragraphs": [
+            "Picture this: you follow a location on a map, enter the building and seek out the right room. You knock on the door and an unfamiliar face invites you inside. As you step in through the door frame, you notice how big and empty it is, maybe a big white sheet on the floor climbing its way up a wall, some curtains that seems to cover nothing, and an assortment of stands and lights all pointed at the empty space.",
+            "For many people this will be their first impression of walking into a photographer's studio, and it's a hard environment to relax into for most. This is where my role comes in. I'm not just their photographer for the session, but I'm also the friend to comfort them, help them feel at ease and allow them to relax in this alien environment.",
+            "There are many ways to create a positive feeling in an unfamiliar space, and I try to go through personal connection; ask questions, talk about about things we might both be interested in, ask what the photos are going to be used for, and gain a better picture in general of what drives them as a person. Not only does this ease the model into sharing and opening up a bit, but this can also give a good view of what kind of images they seek."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/studio5.webp", "media/Images/studio3.webp"],
+        "captions": [
+          "Left: the client in a moment of natural laughter, 16.04.2024.",
+          "Right: the client in a more relaxed pose, 16.04.2024"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Learning to forget",
+        "paragraphs": [
+            "Once in the studio, my main goal is for the camera to become invisible. When the model stops thinking about the device capturing their every detail, they allow themselves to slip into their own natural behaviour. There are of course times where we'll be working towards something more planned, but even then I want the model to not think about the camera until the very last moment. This removes stiffness in the poses, and creates far more visually appealing images. A part of my role here is also to help them learn to forget about the camera, and focus on themselves, their pose, their emotions, etc."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/studio4.webp", "media/Images/studio2.webp"],
+        "captions": [
+          "Left: Using a lightbox as a background, 16.04.2024.",
+          "Right: Black and white edit with a more professional look, 16.04.2024."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "My vision as a portrait photographer",
+        "paragraphs": [
+            "My strengths as a people photographer lie within my ability to create and capture natural personal moments with my subjects. It's not so much about posing as much as it is about helping the model get into the right mindset; forget about the camera, and let their natural expressions and emotions get captured. It's about building trust with them, being transparent about what effects I might be trying for and having fun with the process together. This leads not only to the best shots at the end, but also to positive memories with the experience, especially when it can be scary for people to have a big camera being aimed at their face exposing them so bluntly. I aim to bring a sense of fun to that experience.",
+            "Thank you for reading along, I hope it's given some insight into my process."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/studio7.webp", "media/Images/studio6.webp"],
+        "captions": [
+          "Left: Reference image the client wanted to recreate, Pinterest Screenshot, 18.03.2024.",
+          "Right: Final image of client in desired style, Digital Edit, 29.01.2026"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "To close off, I wanted to showcase how we reached the client's goals. Back in 2024 when I performed this shoot, it was a new experience for both of us and as the budget for the shoot was very low. Nonetheless, this was an exercise for us both to practise that we gladly took. The client provided a mood board of Pinterest images, all done in complex studio lighting scenarios that weren't able to be replicated with the equipment we had available. Nonetheless while writing this article, I rediscovered one of these reference images, and wanted to give my shot at replicating the style with my more up-to-date editing skills now.",
+            "The images you see above are the reference and final image from this exercise, where I used image editing to work towards the lighting, colour and compositional choices that my client had hoped to replicate. Although it is always best to achieve these effects in-camera with \"real\" lighting, digital editing can certainly help work towards a vision too when equipment can't get you all the way there."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Checking up with the client",
+        "paragraphs": [
+            "After writing blogs like these, I always make sure to reach out to my clients to check they are comfortable with what I write and post. When I reached out to this client he replied:",
+            "<i>\"It was an awesome shoot. I did another photoshoot with a different photographer a year later, and honestly, the one with you was better, you're very professional :)\"</i>",
+            "Thank you for reading along, I hope it's given some insight into my creative process, client communication and photographic work."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Capturing the Concert",
+    "titleLogo": "media/titles/lmnTitle.png",
+    "id": "lmn",
+    "tagLine": "🤝 Collaboration Highlight",
+    "startDate": "05-12-2025",
+    "endDate": "15-12-2025",
+    "fieldOfWork": ["Photography"],
+    "client": "ESN Live Music Night",
+    "role": "Editor & Photography Coach",
+    "methodsUsed": ["Coaching", "Raw Photo Editing"],
+    "estimatedReadTime": 4,
+    "heroImage": "media/Images/lmn7Hero.webP",
+    "images": [
+      "media/Images/lmn1.webP",
+      "media/Images/lmn2.webP",
+      "media/Images/lmn3.webP",
+      "media/Images/lmn4.webP",
+      "media/Images/lmn5.webP",
+      "media/Images/lmn6.webP",
+      "media/Images/lmn7.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/lmnThumb.webP",
+    "showreel": null,
+    "shortDescription": "A photographer experiences every event twice: once through the camera, and a second time editing the photos afterwards. Read more about how Ray and I divided these roles efficiently to shoot and edit ESN's Live Music Night event.",
+    "longDescription": "<h2>Coaching and Collaborating</h2><br>A team project involving photography coaching and collaboration with co-photographer Ray. Read more about working together with other photographers, and bringing out a creative vision with extreme lighting conditions through the power of RAW photo editing.",
+    "blogWritingDate": "02.02.2026",
+    "blogUpdateDate": null,
+    "subtitle": "Shooting vs. Editing, how to split the work effectively.",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "In December of 2025, I participated in the Erasmus Student Network's Live Music Night (It's a mouth-full, I know haha. We refer to it as LMN). It's a project I've participated in many times over the years, where over 50 musicians come together to practise for 2 months before performing on stage in front of a large crowd. This time we had a sold out audience of 600 people, which was huge. It was the biggest LMN we've had yet.",
+            "These projects invite me to juggle many roles, from coaching musicians to sound technician duties on the day itself. When you're a photographer as well alongside these things, it's hard to find the time to pick up the camera alongside all the other tasks I take on. This is where my collaboration with Ray Robin Vermeulen has come in over the last year or so.",
+            "Ray is a good friend of mine who's photographic eye I was first able to appreciate when he took pictures of my band on King's Day for us. Ray has a very keen understanding of perspective and creative vision; I associate this with his excellent consistancy in his work illustrating humans in ever varying poses, something he's been doing near-weekly for years now. Since that King's Day event, I've lent him my equipment during our LMN shows and advised him on exposure settings, focus techniques, lens usage, and more to help him capture the events alongside us. A great blend of his creative vision and my technical knowhow to help him achieve that."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/lmn10.webp", "media/Images/lmn1.webp"],
+        "captions": [
+          "Left: Gaurav in the confetti rain, Photo by Ray Robin Vermeulen (unedited), 05.12.2025.",
+          "Right: Gaurav in the confetti rain, Photo by Ray Robin Vermeulen (edit: Edward Rocca), 05.12.2025."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Post-concert processing",
+        "paragraphs": [
+            "As Ray is still developing his knowledge and skills for editing images, we agreed that I would do the main workload of editing the images. He would drop in from time to time to talk and learn more about what decisions I make, showing him my process through adjustments and edits.",
+            "These edits vary from basic exposure adjustments to prioritise the subject matter, to full blown colour reworking and other more creative edits. Oftentimes it's hard to see from the original image what the potential of the image can be, especially if the image was shot on the darker side. In these cases the power of the RAW format really helps to maintain a level of flexibility after the shoot in which more details can be uncovered."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/lmn8.webp", "media/Images/lmn9.webp"],
+        "captions": [
+          "Left: Point playing guitar, Photo by Ray Robin Vermeulen (unedited), 05.12.2025.",
+          "Right: Point playing guitar, Photo by Ray Robin Vermeulen (edit: Edward Rocca), 05.12.2025"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "The editor's vision",
+        "paragraphs": [
+            "The photographer can do a lot to work towards the final result: from exposure to focus decisions, and arguably most importantly: capturing the moment. What follows in the editor's seat is the decisions on how to portray these images. Do we stay true to the moment with the closest representation of light and colour? Or do we aim for an image that represents the feeling or style of the music that's being played? Do we show everything in as much detail as possible? Or do we hide elements to entice the viewer into wondering about what could be in the shadows?",
+            "There are many different takes to have on how an image should be edited, you'd only need to take a look at <a href='https://www.reddit.com/r/PhotoshopFails/' target='_blank'>the Photoshop Fails subreddit</a> to see what interesting ways people try to adjust photos to fit their vision better. In this project however, my priority was this: each musician should be portrayed as best as they can, in a way that should feel presentable to a social media account. If there was a story to be found in the shot, then I also wanted to highlight that. Sometimes it was also about deciding who this image was for and helping them stand out from the others on stage through colour or lighting."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/lmn4.webp", "media/Images/lmn2.webp"],
+        "captions": [
+          "Left: Afro on the drums, Photo by Ray Robin Vermeulen (edit: Edward Rocca), 05.12.2025.",
+          "Right: Evi on the drums, Photo by Ray Robin Vermeulen (edit: Edward Rocca), 05.12.2025"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Closing notes",
+        "paragraphs": [
+            "Although I'm usually also the one behind the camera, collaborating on projects like these can be a refreshing experience, helping me to also see how others view and capture a scene, consider their composition, and what stories they see in their shots. I think these discussions are important to stay on top of your own methods and try new things from time to time, as well as keeping a fresh take on photo editing. There have been shoots where I've really enjoyed the capturing phase and needed to push myself through the editing phase, and seperating those two has also allowed me to search for and discover the joy in the editing process. This has lead to faster editing, quicker delivery, and a better vibe overall from my shoots too.",
+            "Thanks for reading, if you're curious about how I approach shooting and my subject matter you'll also be able to read about my work with models <a href='blog.html?id=studio' target='_blank'>in this article</a>."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Framing Connections",
+    "titleLogo": "media/titles/sgTitle.png",
+    "id": "sg",
+    "tagLine": "🌟 Photography with Impact",
+    "startDate": "27-02-2024",
+    "endDate": "28-02-2024",
+    "fieldOfWork": ["Photography"],
+    "client": "Private Client",
+    "role": "Photographer & Editor",
+    "methodsUsed": ["Event Photography", "Raw Photo Editing"],
+    "estimatedReadTime": 2,
+    "heroImage": "media/Images/sg4Hero.webP",
+    "images": [
+      "media/Images/sg3.webP",
+      "media/Images/sg1.webP",
+      "media/Images/sg6.webP",
+      "media/Images/sg2.webP",
+      "media/Images/sg4.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/sgThumb.webP",
+    "showreel": null,
+    "shortDescription": "Event photography is all about fading into the audience and capturing real, organic moments. Read more to discover how I approach capturing people naturally, and how to keep your subjects comfortable around the camera.",
+    "longDescription": "<h2>Serious Games Awards</h2><br>Being nominated for an award is a big thing for new designers, so this was an important moment for my client. Capturing events like these is important not only for the participants, but also for the event organisers. Getting quality pictures of such events can elevate the experience from a fun day out to a core stepping stone in someone's career if done right.<br><br>Read more to learn about how event photography can make that difference, no matter what kind of event.",
+    "blogWritingDate": "02.02.2026",
+    "blogUpdateDate": "09.02.2026",
+    "subtitle": "Caputring natural shots at an event you might not be familiar with yet",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "Every event is different. As much as you can try to forsee what things might need capturing, it's not always a given that you'll walk away with the shots you want. Because of this, I want to go over the various ways a photographer might want to prepare to do the best job they can. In this project, I was tagging along with a close friend to the Serious Games awards in February of 2024. They had been invited to showcase their game, and based on a jury and votes there would be a winner of the award.",
+            "I'll be using this event as an example of how to scout out a new location, work positioning, lighting, and craft a narrative with the images. Read on to follow my train of thought with some real world examples of how I apply my methods."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/sg3.webp"],
+        "captions": [
+          "Nayeli showcasing her game to eventgoers, 27.02.2024."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Location scouting",
+        "paragraphs": [
+            "To start with, try to get to grips with the location. Is it an award ceremony or a graduation of sorts? Find out where the stage will be, and scout out what kind of shots you can plan out. Think about what backgrounds are available to you, where the light might be coming from, is there any kind of element that could provide an interesting foreground to lend to the story of your shots? The better you know the location, the better you can plan your own movements at the venue to provide yourself with the best photographic opportunities.",
+            "A fun thought experiment on location can be to imagine some magazine images or a perfect photograph here. Would it contain some of the architecture? Or specific people? What about colours, would the photography fit into a colour scheme? This thought experiment can help to get into the right visually oriented mindset for experiencing the event from a photographic perspective."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/sg1.webp"],
+        "captions": [
+          "Nayeli letting eventgoers playtest her game, 27.02.2024."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "What's on the schedule?",
+        "paragraphs": [
+            "Following from the location, are there any fixed moments that will be happening? When will they be, and where will they take place? Make sure you have notes or (silent) alarms set for any important moments at the event. Especially at bigger events and conventions it can help to create a shot list for momentary photographs you're hoping to take."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/sg4.webp"],
+        "captions": [
+          "Showcasing to the panel of judges, 27.02.2024."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Extra tools for improvement",
+        "paragraphs": [
+            "Since doing this shoot a long time ago, I've integrated my various different areas of work more tightly together. Due to this I also wanted to propose some extra exercises that a photographer could take to help get the shots they want.",
+            "One of these exercises is to imagine the final shots kind of like a comic book, where each shot is a panel. A lot of the times, this leads to setting up exposition shots (what is the location like?), followed by action shots (what is happening in the scene?) and emotional shots (how is this making our subject feel?). This though process can lead towards a very different creative outcome than just walking around and shooting at whatever seems interesting. It also gives you more direction on the day itself: you know what shots you're looking for next. Bonus points for scribbling out the ideas for your shots first to get a better eye for how to work them.",
+            "<i>Nerd rant</i>: <a href='https://www.youtube.com/watch?v=fFL7la73RO4' target='_blank'>Two Minute Papers</a> covers a recent research paper showing improvements to Large Language Models (like ChatGPT, DeepSeek, etc.) through changing their process. They were taught to reflect and evaluate multiple ideas first before executing on the best one. Using similar methods, it's speculated that humans can also achieve better outcomes by first sketching out a few rough ideas before choosing the one that suits best. The sketching out of visuals can really help to apply this method to your own work; creating a few different concepts to work towards before seeking out your shots in person!"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Closing remarks",
+        "paragraphs": [
+            "I hope this article was able to bring some insight into my photography, and maybe even spark some ideas for your own next shoot! I'm curious whether you already had heard of some of the thoughts I proposed and how you might use them in your own photography. Feel free to <a href='mailto:edwardrocca@live.com?subject=RE%3A%20Comments%20on%20Framing%20Connections%20article'>send me an email</a> if you're willing to share your own experiences with this subject matter. Thank you for reading and following along."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "The Graduates",
+    "titleLogo": "media/titles/gradTitle.png",
+    "id": "grad",
+    "tagLine": "🌟 Photography with Impact",
+    "startDate": "27-02-2024",
+    "endDate": "25-11-2025",
+    "fieldOfWork": ["Photography"],
+    "client": "Private Clients",
+    "role": "Photographer & Editor",
+    "methodsUsed": ["Event Photography", "Raw Photo Editing"],
+    "estimatedReadTime": 3,
+    "heroImage": "media/Images/grad6Hero.webP",
+    "images": [
+      "media/Images/grad2.webP",
+      "media/Images/grad3.webP",
+      "media/Images/grad4.webP",
+      "media/Images/grad1.webP",
+      "media/Images/grad5.webP",
+      "media/Images/grad6.webP",
+      "media/Images/grad7.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/gradThumb.webP",
+    "showreel": null,
+    "shortDescription": "The pen hits the dotted line for a signature, and hands are reached out to congratulate. Read more to find out how I prepare for timely moments during shoots so I'm ready when they matter most.",
+    "longDescription": "<h2>Shooting for the Moment</h2><br>A graduation ceremony is a special moment. There's a lot of tradition involved, and the graduates have a special occasion to bring oftentimes years of dedication and efforts to a close. Just like with weddings or award ceremonies, there's only one time you can capture the pristine moment of graduating, so read more to discover how I prepare both myself and my equipment for that key moment.",
+    "blogWritingDate": "09-02-2026",
+    "blogUpdateDate": null,
+    "subtitle": "Slowing down time to capture the key moments",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "Every school and institution has their own way to celebrate a graduation. Some do it with big events and many graduates at a time, others have smaller ceremonies where only a few people can be in the room at once. Getting to know what to expect and learning how to approach each graduation is key to any successful shoot with your clients.",
+            "One thing is certain between all graduation events, they only happen once. There are no do-overs, so you want to be well prepared. If your client is the graduate, ask them whether they know others who have been through the same experience. Learning more about what to expect beforehand can help a lot to get the shots you (and they) want. Graduation events aren't too different from other time-sensitive events, which I've written about in  a <a href='blog.html?id=sg' target='_blank'>recent article about award ceremonies</a>. A key difference here is how graduations can be very family-oriented moments. That can mean relatives, but also close friends, housemates, etc. The important shots here aren't only the signing of the documents and shaking of hands, but also capturing important intimate moments with the people attending."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/grad1.webp"],
+        "captions": [
+          "Nigel celebrating his masters degree amongst family, 12.03.2024."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "What should there be pictures of?",
+        "paragraphs": [
+            "There's a lot going on at these events, and there are so many areas that you could choose to focus on in your photography. A photographer could choose to give attention to the building architecture (universities love hosting graduations in their most impressive spaces when they can), or how the graduate deals with the nervousness of dealing with a new situation they might not be familiar with (do they chat with peers or family? or focus on their outfit? or fiddle with their fingers?). All of these angles are great, but it's good habit to prioritise. My priorities usually take form a little like this:<ol><li>The \"official\" moments. The signing of the document, the handshake, the throwing of caps if that's a part of it. These are usually the parts you can inform yourself about by researching the event.</li><li>The emotional experience of the graduate. Laughs with friends, nervousness while waiting, hugs with family, etc. If you know the graduating client well, you might already be aware of what kind of behaviour to expect, or what they'll want to remember from the situation.</li><li>Contextual shots: the building, hallways, the room it happens in. These all help build memories of the day itself. The more surrounding material you find to capture, the more you can build up a nice narrative in the collective of the work later.</li>"
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/grad6.webp"],
+        "captions": [
+          "Alina confirming her graduation with a handshake, 25.11.2025."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "What narrative?",
+        "paragraphs": [
+            "With events like these it can be nice to have a narrative flow to the final deliverable. This allows you to portray the full experience of the graduation through photography and can help clients resurface memories of the day when they look back at the pictures and remind them of things they might otherwise forget over the years. There are more elements to creating a story-oriented portrayal of the day than just the signing of the degree and a handshake. Capture the building, the walk inside maybe, a moment at the bathrooms fixing hair, these types of things. When presenting the client with the work, you can sort the images to help showcase that narrative too."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/grad8.webp", "media/Images/grad2.webp"],
+        "captions": [
+          "Left: Sofia and her friends waiting for the graduation room door to open, 22.03.2024.",
+          "Right: Sofia having a converstation with a friend before entering the room, 22.03.2024."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Closing notes",
+        "paragraphs": [
+            "With a lot to focus on, keep in mind the priorities you have during the shoot. During most of my graduation shoots, I've had free reign to take pictures, but especially in smaller events it's polite to ask everyone if they are okay with your roaming around for pictures. Try to stay out of the way, and figure out where the pictures of the moment need to be taken."
+            
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/grad4.webp", "media/Images/grad3.webp"],
+        "captions": [
+          "Left: Going over the topic of Sofia's thesis, 22.03.2024.",
+          "Right: Sofia and her close friend posing for a picture together after graduating, 22.03.2024."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "Thank you for reading this article. Should you be looking for a graduation photographer for your own graduation, or that of a family member, I'm available for booking! Just send me an email or message me on Instagram through the buttons below."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Raising a Community",
+    "titleLogo": "media/titles/ragTitle.png",
+    "id": "ragtag",
+    "tagLine": "🤝 Collaboration Highlight",
+    "startDate": "13-09-2021",
+    "endDate": "02-10-2024",
+    "fieldOfWork": ["Branding", "Community", "Graphic Design", "Photography"],
+    "client": "Personal",
+    "role": "Community Founder, Event Planner, Photographer, Marketing, External Communications, Finance Manager",
+    "methodsUsed": ["Event Planning", "Graphic Design", "Community Management", "Photography", "Illustration", "Team Collaboration"],
+    "estimatedReadTime": 6,
+    "heroImage": "media/Images/rag4Hero.webP",
+    "images": [
+      "media/Images/rag1.webP",
+      "media/Images/rag2.webP",
+      "media/Images/rag3.webP",
+      "media/Images/rag4.webP"
+    ],
+    "thumbnailImage": "media/thumbnails/ragThumb.webP",
+    "showreel": null,
+    "shortDescription": "It starts with an idea, a few passionate people, and an urge to create something that was missing before. Read more to learn how we launched the biggest art community on campus, and the challenges and pitfalls along the way.",
+    "longDescription": "<h2>A Rag-Tag bunch of ideas</h2><br>Read about how myself and 3 other students went from casual spinoff idea to fully fledged community. We built it from the ground up without funding or support, finding our audience on the way. <br><br>This article covers how RAG·TAG was formed, what methods we used for growth, and how we were able to be <i>the</i> art community for students in our course.",
+    "blogWritingDate": "10.02.2026",
+    "blogUpdateDate": null,
+    "subtitle": "How we built a collective from concept to brand",
+    "blogContent": [
+      {
+        "type": "section",
+        "title": "",
+        "paragraphs": [
+            "RAG·TAG is an art community based in Groningen. I cofounded the community in 2021 alongside 3 others, after we had met through our work together in the GLiTCH design committee (you can read about my time there <a href='blog.html?id=glitch' target='_blank'>in this article</a>). We started small, but quickly scaled to around 200 members who participated in our events and online activities."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/rag1.webp"],
+        "captions": [
+          "Cofounder Chris Lee during one of our annual graffiti events, 18.03.2023."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Why was RAG·TAG successful?",
+        "paragraphs": [
+            "The art community RAG·TAG came forth from the mutual feeling of missing a place to connect over art, despite being surrounded by creative people. Our bachelor's degree (Communication & Multimedia Design: Game Design) had a study association, but there wasn't a place for creative students to get together through art. We wanted to create that space.",
+            "Our mission as a community was to bring artists together and help them develop through collaboration and experimentation, all the while making it unique through our approach. Take our launch event for example: We used a location in town where it was permitted to spraypaint the walls, positioned ourselves as a dispatcher of paint supplies, and offered people a uniquely designed sticker for attending the event. The stickers would always mention the event name and date so people could show them proudly as badges of community."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/rag6.webp", "media/Images/rag5.webp"],
+        "captions": [
+          "Left: Event participant that had sprayed the RAG·TAG logo on their hoodie, Photo by Melvin Post, 21-10-2021", 
+          "Right: Participants during our 1st graffiti event, Photo by Melvin Post, 21-10-2021."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "How did we earn our first income?",
+        "paragraphs": [
+            "Our target audience was already very familiar with unique collectibles through video games (game design students, of course) so the stickers caught on well. Our value proposition was all about saving them the effort of figuring out where to get supplies, where to try spraypainting out legally, and organising a time to do so with others. The overhead on the tickets was never more than a few euros, whereas the price already covered the costs for sticker printing and ordering supplies.",
+            "Because we organised the events well ahead of time, we had plenty of time to package the paints, order the correct amount of stickers, and label everything to make sure everyone received what they paid for. Our time spent organising the events was considered an investment into the community, which we happily obliged to.",
+            "Our launch event was a great success and we sold out to 35 participants; the money earned wasn't earthshattering, but it allowed us to do more to get our name out there. We also obtained a good amount of half-used spray cans from participants who didn't want to keep them, which we were able to bring to future workshops and events, and with our small amount of savings we were able to get banners printed and more stickers to market ourselves to new students arriving in the new educational academic year. The organisers of the student fair had gotten wind of us and we were granted a position welcoming new students to our stand to show what we could offer. During these intro week events, we brought materials with us for the new students to parttake in a collaborative piece and share in the fun of making art together."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/rag7.webp", "media/Images/rag8.webp"],
+        "captions": [
+          "Left: Cofounders Jasper Ising and Chris Lee showcasing the new banner, 02-09-2022",
+          "Right: The collaborative artwork from our Intro Week stand, 05-09-2022"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "What was next?",
+        "paragraphs": [
+            "RAG·TAG soon became a staple name around campus, and alongside our physical events we also did a lot with our online community on Discord. As time went on, the founders and I found our places of comfort in the organisation. Chris was incredible at managing the online community with activities and collectible badges on the server, whereas my own strengths were more in the planning and executing on our in-person events. We all shared in the design work for banners, stickers and other graphics.",
+            "This growth stayed rather steady for a while, with events, workshops and online activities increasing community engagement and interest. On the online side of things, my <a href='blog.html?id=DailyDrawings' target='_blank'>Daily Drawing Project</a> also kept discussion active in the community, inspiring many others to start their own journeys doing the same. I eventually entered my final graduation period and wanted to pass on the organisation of events, and at this point I polled the community for interest in positions helping us run it. Although this concept took off well with a group of students who showed interest initially, they showed less proactivity in organising events under my mentorship. Upon graduation I decided to pass the torch to those still running the server, while I took on a more advisory role: granting insight into how I organised events, finances, and communication with various external parties."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/rag10.webp"],
+        "captions": [
+          "A social media post marketing Jolan Huijskes's 3D workshop, 17-03-2022"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Where is RAG·TAG now?",
+        "paragraphs": [
+            "At the time of writing this article, the Discord server has calmed down a lot. There are still many people (around 178 members) connected to the server, though conversations are relatively short and infrequent. People still share their art in the shared gallery however, which is a rich collection of community art regardless of how actively it gets updated. Should you want to go over there and have a look for yourself or share some art, you can find an invite link <a href='https://discord.gg/tYXhgQQDgf' target='_blank'>here</a> to do so. RAG·TAG may no longer be a part of my daily activities, but it still holds a place very dear in my heart, as proof that when you really want to achieve something and work hard, you can."
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Lessons learned",
+        "paragraphs": [
+            "This was one of the greatest projects I ever helped take off. With a long run from the start of the idea to winding down my involvement at the end of my student era, there were constant battles, challenges and lessons to be learned throughout, too many to mention. To start with, learning how to build interest into a new project/community was huge. Discovering who our target audience was and how to connect to them was a big part of that, where an unintended rivalry faced us from the existing study association.",
+            "Alongside this, I learned how to manage product orders, payments, communication with participants, how to plan out events step by step (where every new event brought new and unfamiliar experiences with it). I learned how to research the unspoken rules of the graffiti community of Groningen to make sure the mistakes we made during our first event wouldn't be made again, and I learned how to confront misbehaving members and participants in the community to enforce community safety and maintain a healthy atmosphere.",
+            "I think the biggest lesson learned here was how to steer the passions of many to a collective goal. Each of us wanted something specific from the community, and I learned to find common ground with the other founders while exploring ways to encourage each person's autonomy in pursuing their own wants and needs. Learning to compromise, ideate together, discuss feasibility of ideas, and plan for a minimum viable execution of those ideas. Learning how to expand on those to create more value for everyone, and how to market them."
+        ]
+      },
+      {
+        "type": "images",
+        "mediaUrls": ["media/Images/rag9.webp"],
+        "captions": [
+          "The original banner used to market our Discord server, Art by Chris Lee, Micha Blaauw, Jasper Ising and myself, 27-10-2021"
+        ]
+      },
+      {
+        "type": "section",
+        "title": "Closing remarks",
+        "paragraphs": [
+          "Thank you for reading about my journey co-creating RAG·TAG. Special thanks go out to each of the founders for their efforts, support, and crazy fun energy while chasing our dreams together: Chris Lee, who's humble efforts will forever be underappreciated by those who don't know how hard he worked on this; Jasper Ising, who was always a reliable pillar of support even when swamped with other projects; and Micha Blaauw, who's crazy enthusiasm sparked everyone around her to want to do something great with our work. More thanks go to all the members of RAG·TAG who made the community so active and vibrant over the years, and kept showing up to events and conversations regardless of who else was going to come. I may have moved on, but the time spent working on this project with passion will forever stay with me. If you ever have questions or want to chat about this, feel free to get in touch with me through the social buttons below!"
+        ]
+      }
+    ]
+  }
+]
